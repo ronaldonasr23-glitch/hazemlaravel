@@ -1,5 +1,5 @@
 {
-    "home_url": "http://hazemfezary.test",
+    "home_url": "http://hazembefore.test",
     "site_name": "Prof. Dr. Hazem Ahmed Elfezary",
     "front_page": 9,
     "posts_page": 0,
@@ -10,9 +10,9 @@
             "id": 11,
             "slug": "en",
             "locale": "en-US",
-            "url": "http://hazemfezary.test/",
+            "url": "http://hazembefore.test/",
             "label": "English",
-            "flag": "http://hazemfezary.test/wp-content/plugins/polylang/vendor/wpsyntex/flags/us.svg",
+            "flag": "http://hazembefore.test/wp-content/plugins/polylang/vendor/wpsyntex/flags/us.svg",
             "direction": "ltr",
             "order": 0,
             "has_translations": false,
@@ -46,9 +46,9 @@
             "id": 14,
             "slug": "ar",
             "locale": "ar",
-            "url": "http://hazemfezary.test/ar/home-ar/",
+            "url": "http://hazembefore.test/ar/home-ar/",
             "label": "العربية",
-            "flag": "http://hazemfezary.test/wp-content/plugins/polylang/vendor/wpsyntex/flags/ar.lang.svg",
+            "flag": "http://hazembefore.test/wp-content/plugins/polylang/vendor/wpsyntex/flags/ar.lang.svg",
             "direction": "rtl",
             "order": 0,
             "has_translations": false,
@@ -221,6 +221,726 @@
             "modified": "2026-07-30 10:01:51"
         },
         {
+            "id": 1019,
+            "type": "medical_faq",
+            "slug": "what-indicates-the-need-for-scoliosis-correction-surgery-rather-than-conservative-management",
+            "title": "What indicates the need for scoliosis correction surgery rather than conservative management?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-indicates-the-need-for-scoliosis-correction-surgery-rather-than-conservative-management/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1020,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%aa%d9%89-%d8%aa%d8%b5%d8%a8%d8%ad-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d8%b9%d9%88%d8%ac%d8%a7%d8%ac-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81",
+            "title": "متى تصبح جراحة تصحيح اعوجاج العمود الفقري (الجنف) ضرورية بدلاً من العلاج التحفظي؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%aa%d9%89-%d8%aa%d8%b5%d8%a8%d8%ad-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d8%b9%d9%88%d8%ac%d8%a7%d8%ac-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1021,
+            "type": "medical_faq",
+            "slug": "how-does-german-surgical-training-influence-complex-deformity-correction",
+            "title": "How does German surgical training influence complex deformity correction?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-does-german-surgical-training-influence-complex-deformity-correction/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1022,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d8%aa%d9%86%d8%b9%d9%83%d8%b3-%d8%a7%d9%84%d8%ae%d8%a8%d8%b1%d8%a9-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%84%d9%85%d8%a7%d9%86%d9%8a%d8%a9-%d8%b9",
+            "title": "كيف تنعكس الخبرة الجراحية الألمانية على نجاح جراحات التشوهات المعقدة؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d8%aa%d9%86%d8%b9%d9%83%d8%b3-%d8%a7%d9%84%d8%ae%d8%a8%d8%b1%d8%a9-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%84%d9%85%d8%a7%d9%86%d9%8a%d8%a9-%d8%b9/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1023,
+            "type": "medical_faq",
+            "slug": "what-is-vertebral-body-tethering-vbt-and-how-does-it-differ-from-traditional-spinal-fusion",
+            "title": "What is Vertebral Body Tethering (VBT), and how does it differ from traditional spinal fusion?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-is-vertebral-body-tethering-vbt-and-how-does-it-differ-from-traditional-spinal-fusion/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1024,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d8%af%d9%8a%d9%86%d8%a7%d9%85%d9%8a%d9%83%d9%8a-vbt-%d9%88%d9%83",
+            "title": "ما هي تقنية تقويم الجنف الديناميكي (VBT) وكيف تختلف عن الدمج التقليدي؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d8%af%d9%8a%d9%86%d8%a7%d9%85%d9%8a%d9%83%d9%8a-vbt-%d9%88%d9%83/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1025,
+            "type": "medical_faq",
+            "slug": "who-is-an-ideal-candidate-for-dynamic-scoliosis-correction-vbt",
+            "title": "Who is an ideal candidate for dynamic scoliosis correction (VBT)?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/who-is-an-ideal-candidate-for-dynamic-scoliosis-correction-vbt/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1026,
+            "type": "medical_faq",
+            "slug": "%d9%85%d9%86-%d9%87%d9%85-%d8%a7%d9%84%d9%85%d8%b1%d8%b6%d9%89-%d8%a7%d9%84%d9%85%d8%b1%d8%b4%d8%ad%d9%88%d9%86-%d9%84%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%aa%d8%b5%d8%ad",
+            "title": "من هم المرضى المرشحون لإجراء عملية تصحيح الجنف بدون دمج (VBT)؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d9%86-%d9%87%d9%85-%d8%a7%d9%84%d9%85%d8%b1%d8%b6%d9%89-%d8%a7%d9%84%d9%85%d8%b1%d8%b4%d8%ad%d9%88%d9%86-%d9%84%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%aa%d8%b5%d8%ad/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1027,
+            "type": "medical_faq",
+            "slug": "how-is-thoracic-kyphosis-treated-when-curvature-becomes-severe",
+            "title": "How is thoracic kyphosis treated when curvature becomes severe?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-is-thoracic-kyphosis-treated-when-curvature-becomes-severe/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1028,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%b9%d9%84%d8%a7%d8%ac-%d8%ad%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d8%a7%d9%84%d8%b5%d8%af%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%aa%d9%82",
+            "title": "كيف يتم علاج حالات التحدب الصدري المتقدمة (الكايفوسيز)؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%b9%d9%84%d8%a7%d8%ac-%d8%ad%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d8%a7%d9%84%d8%b5%d8%af%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%aa%d9%82/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1029,
+            "type": "medical_faq",
+            "slug": "what-are-the-clinical-risks-of-untreated-kyphoscoliosis",
+            "title": "What are the clinical risks of untreated kyphoscoliosis?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-are-the-clinical-risks-of-untreated-kyphoscoliosis/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1030,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d9%85%d8%ae%d8%a7%d8%b7%d8%b1-%d8%a7%d9%84%d9%86%d8%a7%d8%aa%d8%ac%d8%a9-%d8%b9%d9%86-%d8%a5%d9%87%d9%85%d8%a7%d9%84-%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d9%84%d8%aa",
+            "title": "ما هي المخاطر الناتجة عن إهمال علاج التحدب المصحوب بالاعوجاج (الكيفوسكوليوز)؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d9%85%d8%ae%d8%a7%d8%b7%d8%b1-%d8%a7%d9%84%d9%86%d8%a7%d8%aa%d8%ac%d8%a9-%d8%b9%d9%86-%d8%a5%d9%87%d9%85%d8%a7%d9%84-%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d9%84%d8%aa/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1031,
+            "type": "medical_faq",
+            "slug": "how-is-sagittal-balance-evaluated-in-adult-spinal-deformity",
+            "title": "How is sagittal balance evaluated in adult spinal deformity?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-is-sagittal-balance-evaluated-in-adult-spinal-deformity/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1032,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d9%8a%d9%8f%d9%82%d8%a7%d8%b3-%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d8%b2%d9%86-%d8%a7%d9%84%d8%b3%d9%87%d9%85%d9%8a-%d9%88%d9%85%d8%ad%d8%a7%d8%b0%d8%a7%d8%a9-%d8%a7%d9%84%d9%82%d9%88",
+            "title": "كيف يُقاس التوازن السهمي ومحاذاة القوام في تشوهات العمود الفقري للبالغين؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d9%8a%d9%8f%d9%82%d8%a7%d8%b3-%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d8%b2%d9%86-%d8%a7%d9%84%d8%b3%d9%87%d9%85%d9%8a-%d9%88%d9%85%d8%ad%d8%a7%d8%b0%d8%a7%d8%a9-%d8%a7%d9%84%d9%82%d9%88/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1033,
+            "type": "medical_faq",
+            "slug": "what-solutions-are-available-for-pediatric-patients-with-early-onset-scoliosis",
+            "title": "What solutions are available for pediatric patients with early-onset scoliosis?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-solutions-are-available-for-pediatric-patients-with-early-onset-scoliosis/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1034,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%ad%d8%a9-%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%ac",
+            "title": "ما هي الحلول الجراحية المتاحة لأطفال جنف العمود الفقري المبكر؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%ad%d9%84%d9%88%d9%84-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%ad%d8%a9-%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%ac/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1035,
+            "type": "medical_faq",
+            "slug": "what-defines-complex-or-revision-spine-surgery",
+            "title": "What defines complex or revision spine surgery?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-defines-complex-or-revision-spine-surgery/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1036,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d8%a7%d9%84%d9%85%d9%82%d8%b5%d9%88%d8%af-%d8%a8%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b9",
+            "title": "ما المقصود بجراحات العمود الفقري المعقدة والإصلاحية (Revision Surgery)؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d8%a7%d9%84%d9%85%d9%82%d8%b5%d9%88%d8%af-%d8%a8%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b9/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1037,
+            "type": "medical_faq",
+            "slug": "how-is-surgical-stability-achieved-during-major-revision-spine-reconstructions",
+            "title": "How is surgical stability achieved during major revision spine reconstructions?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-is-surgical-stability-achieved-during-major-revision-spine-reconstructions/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1038,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d8%ad%d9%82%d9%8a%d9%82-%d8%a7%d9%84%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a8-%d9%81%d9%8a-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a5",
+            "title": "كيف يتم تحقيق التثبيت الصلب في جراحات إعادة تعديل العمود الفقري؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d8%ad%d9%82%d9%8a%d9%82-%d8%a7%d9%84%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d8%b5%d9%84%d8%a8-%d9%81%d9%8a-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a5/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1039,
+            "type": "medical_faq",
+            "slug": "what-is-the-surgical-goal-when-resecting-spinal-tumours",
+            "title": "What is the surgical goal when resecting spinal tumours?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-is-the-surgical-goal-when-resecting-spinal-tumours/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1040,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%88-%d8%a7%d9%84%d9%87%d8%af%d9%81-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a-%d8%b9%d9%86%d8%af-%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7",
+            "title": "ما هو الهدف الجراحي الأساسي عند استئصال أورام العمود الفقري؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%88-%d8%a7%d9%84%d9%87%d8%af%d9%81-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a-%d8%b9%d9%86%d8%af-%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1041,
+            "type": "medical_faq",
+            "slug": "when-is-balloon-kyphoplasty-recommended-for-vertebral-fractures",
+            "title": "When is Balloon Kyphoplasty recommended for vertebral fractures?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/when-is-balloon-kyphoplasty-recommended-for-vertebral-fractures/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1042,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%aa%d9%89-%d9%8a%d9%8f%d9%86%d8%b5%d8%ad-%d8%a8%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1-%d8%ad%d9%82%d9%86-%d8%a7%d9%84%d8%a3%d8%b3%d9%85%d9%86%d8%aa-%d8%a7%d9%84%d8%b9%d8%b8%d9%85%d9%8a-kyphoplasty",
+            "title": "متى يُنصح بإجراء حقن الأسمنت العظمي (Kyphoplasty) لكسور الفقرات؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%aa%d9%89-%d9%8a%d9%8f%d9%86%d8%b5%d8%ad-%d8%a8%d8%a5%d8%ac%d8%b1%d8%a7%d8%a1-%d8%ad%d9%82%d9%86-%d8%a7%d9%84%d8%a3%d8%b3%d9%85%d9%86%d8%aa-%d8%a7%d9%84%d8%b9%d8%b8%d9%85%d9%8a-kyphoplasty/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1043,
+            "type": "medical_faq",
+            "slug": "how-are-unstable-high-energy-burst-fractures-surgically-stabilized",
+            "title": "How are unstable high-energy burst fractures surgically stabilized?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-are-unstable-high-energy-burst-fractures-surgically-stabilized/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1044,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d9%83%d8%b3%d9%88%d8%b1-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%86%d9%81%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9",
+            "title": "كيف يتم تثبيت كسور الفقرات الانفجارية الناتجة عن الحوادث الشديدة؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d9%83%d8%b3%d9%88%d8%b1-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%86%d9%81%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1045,
+            "type": "medical_faq",
+            "slug": "what-are-the-primary-advantages-of-minimally-invasive-spine-surgery-miss",
+            "title": "What are the primary advantages of Minimally Invasive Spine Surgery (MISS)?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-are-the-primary-advantages-of-minimally-invasive-spine-surgery-miss/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1046,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d9%85%d8%b2%d8%a7%d9%8a%d8%a7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af",
+            "title": "ما هي المزايا الرئيسية لجراحات العمود الفقري طفيفة التوغل (MISS)؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d9%85%d8%b2%d8%a7%d9%8a%d8%a7-%d8%a7%d9%84%d8%b1%d8%a6%d9%8a%d8%b3%d9%8a%d8%a9-%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1047,
+            "type": "medical_faq",
+            "slug": "how-does-microscopic-discectomy-ensure-nerve-safety",
+            "title": "How does microscopic discectomy ensure nerve safety?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-does-microscopic-discectomy-ensure-nerve-safety/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1048,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d8%a7%d9%84%d8%af%d9%88%d8%b1-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%84%d8%b9%d8%a8%d9%87-%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%83%d9%88%d8%a8-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7",
+            "title": "ما الدور الذي يلعبه الميكروسكوب الجراحي في عمليات استئصال الغضروف؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d8%a7%d9%84%d8%af%d9%88%d8%b1-%d8%a7%d9%84%d8%b0%d9%8a-%d9%8a%d9%84%d8%b9%d8%a8%d9%87-%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%83%d9%88%d8%a8-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1049,
+            "type": "medical_faq",
+            "slug": "what-is-full-endoscopic-spine-surgery",
+            "title": "What is full-endoscopic spine surgery?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-is-full-endoscopic-spine-surgery/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1050,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d9%88%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84",
+            "title": "ما هي جراحة واستئصال الغضروف بمنظار العمود الفقري الكامل؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d9%88%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1051,
+            "type": "medical_faq",
+            "slug": "how-quickly-can-a-patient-walk-following-endoscopic-discectomy",
+            "title": "How quickly can a patient walk following endoscopic discectomy?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-quickly-can-a-patient-walk-following-endoscopic-discectomy/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1052,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%aa%d9%89-%d9%8a%d8%b3%d8%aa%d8%b7%d9%8a%d8%b9-%d8%a7%d9%84%d9%85%d8%b1%d9%8a%d8%b6-%d8%a7%d9%84%d9%85%d8%b4%d9%8a-%d8%a8%d8%b9%d8%af-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%ba%d8%b6%d8%b1%d9%88",
+            "title": "متى يستطيع المريض المشي بعد عملية غضروف الظهر بالمنظار؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%aa%d9%89-%d9%8a%d8%b3%d8%aa%d8%b7%d9%8a%d8%b9-%d8%a7%d9%84%d9%85%d8%b1%d9%8a%d8%b6-%d8%a7%d9%84%d9%85%d8%b4%d9%8a-%d8%a8%d8%b9%d8%af-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%ba%d8%b6%d8%b1%d9%88/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1053,
+            "type": "medical_faq",
+            "slug": "what-stages-characterize-intervertebral-disc-degeneration",
+            "title": "What stages characterize intervertebral disc degeneration?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-stages-characterize-intervertebral-disc-degeneration/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1054,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d9%85%d8%b1%d8%a7%d8%ad%d9%84-%d8%aa%d8%af%d9%87%d9%88%d8%b1-%d9%88%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b8%d9%87%d8%b1",
+            "title": "ما هي مراحل تدهور واضطراب غضاريف الظهر؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d9%85%d8%b1%d8%a7%d8%ad%d9%84-%d8%aa%d8%af%d9%87%d9%88%d8%b1-%d9%88%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b8%d9%87%d8%b1/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1055,
+            "type": "medical_faq",
+            "slug": "when-is-non-surgical-conservative-treatment-prioritized-for-disc-herniations",
+            "title": "When is non-surgical conservative treatment prioritized for disc herniations?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/when-is-non-surgical-conservative-treatment-prioritized-for-disc-herniations/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1056,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%aa%d9%89-%d9%8a%d9%8f%d9%81%d8%b6%d9%84-%d8%a7%d8%aa%d8%a8%d8%a7%d8%b9-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d9%84%d8%aa%d8%ad%d9%81%d8%b8%d9%8a-%d9%84%d8%ad%d8%a7%d9%84%d8%a7%d8%aa",
+            "title": "متى يُفضل اتباع العلاج التحفظي لحالات الانزلاق الغضروفي؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%aa%d9%89-%d9%8a%d9%8f%d9%81%d8%b6%d9%84-%d8%a7%d8%aa%d8%a8%d8%a7%d8%b9-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d9%84%d8%aa%d8%ad%d9%81%d8%b8%d9%8a-%d9%84%d8%ad%d8%a7%d9%84%d8%a7%d8%aa/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1057,
+            "type": "medical_faq",
+            "slug": "what-symptoms-signal-cervical-disc-disease",
+            "title": "What symptoms signal cervical disc disease?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-symptoms-signal-cervical-disc-disease/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1058,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%a3%d8%b9%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81%d9%8a-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%8a-%d8%ba",
+            "title": "ما هي أعراض الانزلاق الغضروفي العنقي (غضروف الرقبة)؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%a3%d8%b9%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81%d9%8a-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%8a-%d8%ba/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1059,
+            "type": "medical_faq",
+            "slug": "what-is-the-difference-between-acdf-and-cervical-artificial-disc-replacement-adr",
+            "title": "What is the difference between ACDF and Cervical Artificial Disc Replacement (ADR)?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-is-the-difference-between-acdf-and-cervical-artificial-disc-replacement-adr/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1060,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d8%a7%d9%84%d9%81%d8%b1%d9%82-%d8%a8%d9%8a%d9%86-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%8a%d8%a9-acdf-%d9%88%d8%a7",
+            "title": "ما الفرق بين تثبيت الفقرات العنقية (ACDF) واستبدال الغضروف الصناعي (ADR)؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d8%a7%d9%84%d9%81%d8%b1%d9%82-%d8%a8%d9%8a%d9%86-%d8%aa%d8%ab%d8%a8%d9%8a%d8%aa-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%8a%d8%a9-acdf-%d9%88%d8%a7/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1061,
+            "type": "medical_faq",
+            "slug": "which-spinal-levels-are-most-susceptible-to-lumbar-disc-herniation",
+            "title": "Which spinal levels are most susceptible to lumbar disc herniation?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/which-spinal-levels-are-most-susceptible-to-lumbar-disc-herniation/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1062,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%83%d8%ab%d8%b1-%d8%b9%d8%b1%d8%b6%d8%a9-%d9%84%d9%84%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a8%d8%a7%d9%84%d8%a7",
+            "title": "ما هي الفقرات الأكثر عرضة للإصابة بالانزلاق الغضروفي القطني؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%83%d8%ab%d8%b1-%d8%b9%d8%b1%d8%b6%d8%a9-%d9%84%d9%84%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d8%a8%d8%a7%d9%84%d8%a7/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1063,
+            "type": "medical_faq",
+            "slug": "what-is-sciatica-and-what-causes-it",
+            "title": "What is sciatica, and what causes it?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-is-sciatica-and-what-causes-it/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1064,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%88-%d8%b9%d8%b1%d9%82-%d8%a7%d9%84%d9%86%d8%b3%d8%a7-%d9%88%d9%85%d8%a7-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8%d9%87-%d8%a7%d9%84%d8%a3%d9%83%d8%ab%d8%b1-%d8%b4%d9%8a%d9%88%d8%b9%d8%a7",
+            "title": "ما هو عرق النسا وما أسبابه الأكثر شيوعاً؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%88-%d8%b9%d8%b1%d9%82-%d8%a7%d9%84%d9%86%d8%b3%d8%a7-%d9%88%d9%85%d8%a7-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8%d9%87-%d8%a7%d9%84%d8%a3%d9%83%d8%ab%d8%b1-%d8%b4%d9%8a%d9%88%d8%b9%d8%a7/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1065,
+            "type": "medical_faq",
+            "slug": "what-constitutes-a-surgical-emergency-in-spinal-disc-disorders",
+            "title": "What constitutes a surgical emergency in spinal disc disorders?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-constitutes-a-surgical-emergency-in-spinal-disc-disorders/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1066,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%ae%d8%b7%d9%8a%d8%b1%d8%a9-red-flags-%d8%a7%d9%84",
+            "title": "ما هي العلامات التحذيرية الخطيرة (Red Flags) التي تستدعي جراحة عاجلة للغضروف؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%ae%d8%b7%d9%8a%d8%b1%d8%a9-red-flags-%d8%a7%d9%84/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1067,
+            "type": "medical_faq",
+            "slug": "how-is-spinal-canal-stenosis-diagnosed",
+            "title": "How is spinal canal stenosis diagnosed?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-is-spinal-canal-stenosis-diagnosed/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1068,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5-%d8%b6%d9%8a%d9%82-%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d8%b5%d8%a8",
+            "title": "كيف يتم تشخيص ضيق القناة الشوكية العصبية؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5-%d8%b6%d9%8a%d9%82-%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a%d8%a9-%d8%a7%d9%84%d8%b9%d8%b5%d8%a8/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1069,
+            "type": "medical_faq",
+            "slug": "how-does-decompression-surgery-relieve-spinal-canal-stenosis",
+            "title": "How does decompression surgery relieve spinal canal stenosis?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-does-decompression-surgery-relieve-spinal-canal-stenosis/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1070,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d8%aa%d8%b3%d8%a7%d8%b9%d8%af-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a%d8%a9-%d8%a7",
+            "title": "كيف تساعد جراحة توسيع القناة الشوكية المحدودة في استعادة القدرة على المشي؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d8%aa%d8%b3%d8%a7%d8%b9%d8%af-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a%d8%a9-%d8%a7/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1071,
+            "type": "medical_faq",
+            "slug": "what-is-spondylolisthesis-and-how-is-it-treated",
+            "title": "What is spondylolisthesis and how is it treated?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-is-spondylolisthesis-and-how-is-it-treated/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1072,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%88-%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%81%d9%82%d8%a7%d8%b1%d9%8a-spondylolisthesis-%d9%88%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%a7%d9%84%d8%aa",
+            "title": "ما هو الانزلاق الفقاري (Spondylolisthesis) وكيف يتم التعامل معه؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%88-%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%81%d9%82%d8%a7%d8%b1%d9%8a-spondylolisthesis-%d9%88%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%a7%d9%84%d8%aa/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1073,
+            "type": "medical_faq",
+            "slug": "what-non-surgical-interventions-exist-for-chronic-back-and-neck-pain",
+            "title": "What non-surgical interventions exist for chronic back and neck pain?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/what-non-surgical-interventions-exist-for-chronic-back-and-neck-pain/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1074,
+            "type": "medical_faq",
+            "slug": "%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%ba%d9%8a%d8%b1-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%ad%d8%a9-%d9%84%d8%b9",
+            "title": "ما هي الخيارات غير الجراحية المتاحة لعلاج آلام الظهر والرقبة المزمنة؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%ba%d9%8a%d8%b1-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%ad%d8%a9-%d9%84%d8%b9/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1075,
+            "type": "medical_faq",
+            "slug": "how-does-pre-operative-planning-ensure-precision-in-spine-surgeries",
+            "title": "How does pre-operative planning ensure precision in spine surgeries?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-does-pre-operative-planning-ensure-precision-in-spine-surgeries/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1076,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d9%8a%d8%b6%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a-%d8%a7%d9%84%d9%85%d8%b3%d8%a8%d9%82-%d8%af%d9%82%d8%a9-%d9%88%d8%b3",
+            "title": "كيف يضمن التخطيط الجراحي المسبق دقة وسلامة عمليات العمود الفقري؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d9%8a%d8%b6%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d8%a7%d9%84%d8%ac%d8%b1%d8%a7%d8%ad%d9%8a-%d8%a7%d9%84%d9%85%d8%b3%d8%a8%d9%82-%d8%af%d9%82%d8%a9-%d9%88%d8%b3/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1077,
+            "type": "medical_faq",
+            "slug": "how-is-multi-clinic-care-coordinated-across-dubai-egypt-and-germany",
+            "title": "How is multi-clinic care coordinated across Dubai, Egypt, and Germany?",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/medical-faq/how-is-multi-clinic-care-coordinated-across-dubai-egypt-and-germany/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
+            "id": 1078,
+            "type": "medical_faq",
+            "slug": "%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d9%86%d8%b3%d9%8a%d9%82-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%a8%d8%b9%d8%a9-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%a9-%d9%84%d9%84%d9%85%d8%b1%d8%b6%d9%89-%d8%a8",
+            "title": "كيف يتم تنسيق المتابعة الطبية للمرضى بين عيادات دبي ومصر وألمانيا؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/medical-faq/%d9%83%d9%8a%d9%81-%d9%8a%d8%aa%d9%85-%d8%aa%d9%86%d8%b3%d9%8a%d9%82-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%a8%d8%b9%d8%a9-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%a9-%d9%84%d9%84%d9%85%d8%b1%d8%b6%d9%89-%d8%a8/",
+            "date": "2026-09-10 07:28:00",
+            "modified": "2026-09-10 07:28:00"
+        },
+        {
             "id": 2,
             "type": "page",
             "slug": "sample-page",
@@ -254,7 +974,7 @@
             "lang": "en",
             "url": "/",
             "date": "2026-06-23 21:26:49",
-            "modified": "2026-10-19 08:02:03"
+            "modified": "2026-11-07 18:15:54"
         },
         {
             "id": 61,
@@ -266,7 +986,7 @@
             "lang": "en",
             "url": "/about/",
             "date": "2026-06-24 09:26:53",
-            "modified": "2026-08-24 11:09:34"
+            "modified": "2026-09-01 16:47:45"
         },
         {
             "id": 93,
@@ -278,7 +998,7 @@
             "lang": "en",
             "url": "/services/",
             "date": "2026-06-24 10:22:33",
-            "modified": "2026-08-24 13:07:55"
+            "modified": "2026-09-01 16:49:10"
         },
         {
             "id": 117,
@@ -290,7 +1010,7 @@
             "lang": "en",
             "url": "/services/spine-deformity-correction/scoliosis-correction/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-09-01 06:08:59"
+            "modified": "2026-09-09 21:01:06"
         },
         {
             "id": 118,
@@ -302,7 +1022,7 @@
             "lang": "en",
             "url": "/services/spine-deformity-correction/kyphosis-treatment/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-09-01 06:12:31"
+            "modified": "2026-09-09 21:01:22"
         },
         {
             "id": 119,
@@ -314,7 +1034,7 @@
             "lang": "en",
             "url": "/services/spine-deformity-correction/kyphoscoliosis-realignment/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-09-01 06:32:04"
+            "modified": "2026-09-09 21:01:32"
         },
         {
             "id": 120,
@@ -326,7 +1046,7 @@
             "lang": "en",
             "url": "/services/spine-deformity-correction/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-08-24 13:07:22"
+            "modified": "2026-09-09 19:21:02"
         },
         {
             "id": 121,
@@ -338,7 +1058,7 @@
             "lang": "en",
             "url": "/services/spine-deformity-correction/dynamic-correction-vbt/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-09-01 06:33:05"
+            "modified": "2026-09-09 21:01:43"
         },
         {
             "id": 122,
@@ -350,7 +1070,7 @@
             "lang": "en",
             "url": "/services/spine-deformity-correction/pediatric-spine-surgery/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-09-01 06:34:01"
+            "modified": "2026-09-09 21:14:11"
         },
         {
             "id": 123,
@@ -362,7 +1082,7 @@
             "lang": "en",
             "url": "/services/complex-spine-surgeries/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-08-24 13:11:49"
+            "modified": "2026-09-09 19:24:10"
         },
         {
             "id": 124,
@@ -374,7 +1094,7 @@
             "lang": "en",
             "url": "/services/complex-spine-surgeries/spinal-tumours/",
             "date": "2026-06-24 11:29:23",
-            "modified": "2026-09-01 06:36:05"
+            "modified": "2026-09-09 20:59:59"
         },
         {
             "id": 125,
@@ -386,7 +1106,7 @@
             "lang": "en",
             "url": "/services/complex-spine-surgeries/vertebral-fractures-reconstruction/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-09-01 06:38:31"
+            "modified": "2026-09-09 21:00:10"
         },
         {
             "id": 126,
@@ -398,7 +1118,7 @@
             "lang": "en",
             "url": "/services/minimally-invasive-spine-surgeries/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-08-24 13:08:00"
+            "modified": "2026-09-09 20:58:11"
         },
         {
             "id": 127,
@@ -410,7 +1130,7 @@
             "lang": "en",
             "url": "/services/minimally-invasive-spine-surgeries/microscopic-spine-surgeries/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-09-01 06:41:21"
+            "modified": "2026-09-09 20:58:34"
         },
         {
             "id": 128,
@@ -422,7 +1142,7 @@
             "lang": "en",
             "url": "/services/minimally-invasive-spine-surgeries/endoscopic-spine-surgeries/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-09-01 06:43:27"
+            "modified": "2026-09-09 20:59:08"
         },
         {
             "id": 129,
@@ -434,7 +1154,7 @@
             "lang": "en",
             "url": "/services/spinal-discs-disorders/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-08-24 13:08:08"
+            "modified": "2026-09-09 19:25:44"
         },
         {
             "id": 130,
@@ -446,7 +1166,7 @@
             "lang": "en",
             "url": "/services/spinal-discs-disorders/cervical-disc-disease/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-09-01 06:52:53"
+            "modified": "2026-09-09 20:53:43"
         },
         {
             "id": 131,
@@ -458,7 +1178,7 @@
             "lang": "en",
             "url": "/services/spinal-discs-disorders/lumbar-disc-disease/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-09-01 06:57:09"
+            "modified": "2026-09-09 20:53:48"
         },
         {
             "id": 132,
@@ -482,7 +1202,7 @@
             "lang": "en",
             "url": "/services/spinal-discs-disorders/back-neck-pain-management/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-09-01 07:02:49"
+            "modified": "2026-09-09 20:54:21"
         },
         {
             "id": 134,
@@ -494,7 +1214,7 @@
             "lang": "en",
             "url": "/services/spinal-discs-disorders/spine-disorders/",
             "date": "2026-06-24 11:29:24",
-            "modified": "2026-09-01 07:10:01"
+            "modified": "2026-09-09 20:55:32"
         },
         {
             "id": 247,
@@ -530,7 +1250,7 @@
             "lang": "en",
             "url": "/contact-us/",
             "date": "2026-06-28 11:01:11",
-            "modified": "2026-08-24 08:06:30"
+            "modified": "2026-09-01 16:50:10"
         },
         {
             "id": 278,
@@ -590,7 +1310,7 @@
             "lang": "ar",
             "url": "/ar/home-ar/",
             "date": "2026-07-16 14:40:59",
-            "modified": "2026-07-30 11:42:24"
+            "modified": "2026-11-10 05:38:03"
         },
         {
             "id": 340,
@@ -614,7 +1334,7 @@
             "lang": "ar",
             "url": "/ar/%d8%b9%d9%86-%d8%a7%d9%84%d8%af%d9%83%d8%aa%d9%88%d8%b1/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-07-16 14:46:46"
+            "modified": "2026-09-09 19:05:32"
         },
         {
             "id": 342,
@@ -638,7 +1358,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d8%b9%d9%88%d8%ac%d8%a7%d8%ac-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d8%ac%d9%86%d9%81/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-09-01 15:43:25"
+            "modified": "2026-09-09 21:05:29"
         },
         {
             "id": 344,
@@ -650,7 +1370,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d8%a7%d9%84%d9%83%d9%8a%d9%88%d9%81%d9%88%d8%b2/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-09-01 15:44:02"
+            "modified": "2026-09-09 21:05:41"
         },
         {
             "id": 345,
@@ -662,7 +1382,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d9%88%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%83/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-09-01 15:45:09"
+            "modified": "2026-09-09 21:05:53"
         },
         {
             "id": 346,
@@ -674,7 +1394,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-07-16 14:46:46"
+            "modified": "2026-09-09 19:22:34"
         },
         {
             "id": 347,
@@ -686,7 +1406,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%a7%d9%84%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d9%84%d8%af%d9%8a%d9%86%d8%a7%d9%85%d9%8a%d9%83%d9%8a-%d9%84%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-vbt/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-09-01 15:46:29"
+            "modified": "2026-09-09 21:06:21"
         },
         {
             "id": 348,
@@ -698,7 +1418,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/pediatric-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-09-01 15:47:10"
+            "modified": "2026-09-09 21:13:23"
         },
         {
             "id": 349,
@@ -710,7 +1430,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-07-16 14:46:46"
+            "modified": "2026-09-09 21:06:47"
         },
         {
             "id": 350,
@@ -722,7 +1442,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9/%d8%a3%d9%88%d8%b1%d8%a7%d9%85-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/",
             "date": "2026-07-16 14:46:46",
-            "modified": "2026-09-01 15:52:26"
+            "modified": "2026-09-09 21:09:43"
         },
         {
             "id": 351,
@@ -734,7 +1454,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9/%d8%b9%d9%84%d8%a7%d8%ac-%d9%83%d8%b3%d9%88%d8%b1-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d9%88%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%a7%d9%84%d8%a8%d9%86%d8%a7%d8%a1/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 15:53:05"
+            "modified": "2026-09-09 21:08:12"
         },
         {
             "id": 352,
@@ -758,7 +1478,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%b7%d9%81%d9%8a%d9%81%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%ba%d9%84/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%83%d9%88%d8%a8%d9%8a%d8%a9/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 16:00:32"
+            "modified": "2026-09-09 21:08:25"
         },
         {
             "id": 354,
@@ -770,7 +1490,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%b7%d9%81%d9%8a%d9%81%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%ba%d9%84/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%b8%d8%a7%d8%b1/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 16:00:54"
+            "modified": "2026-09-09 21:08:35"
         },
         {
             "id": 355,
@@ -794,7 +1514,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%8a%d8%a9/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 16:16:47"
+            "modified": "2026-09-09 21:08:44"
         },
         {
             "id": 357,
@@ -806,7 +1526,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d8%b7%d9%86%d9%8a%d8%a9/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 16:18:20"
+            "modified": "2026-09-09 21:08:55"
         },
         {
             "id": 358,
@@ -818,7 +1538,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d9%82%d9%86%d8%a7%d8%a9-%d9%85%d8%ac%d8%b1%d9%89-%d8%a7%d9%84%d8%a3%d8%b9%d8%b5%d8%a7%d8%a8/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 16:18:46"
+            "modified": "2026-09-09 21:09:04"
         },
         {
             "id": 359,
@@ -830,7 +1550,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%b9%d9%84%d8%a7%d8%ac-%d8%a2%d9%84%d8%a7%d9%85-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d9%88%d8%a7%d9%84%d8%b1%d9%82%d8%a8%d8%a9/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 16:19:25"
+            "modified": "2026-09-09 21:09:15"
         },
         {
             "id": 360,
@@ -842,7 +1562,7 @@
             "lang": "ar",
             "url": "/ar/%d8%a7%d9%84%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a7%d8%aa/%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/",
             "date": "2026-07-16 14:46:47",
-            "modified": "2026-09-01 16:19:58"
+            "modified": "2026-09-09 21:09:25"
         },
         {
             "id": 361,
@@ -1575,6 +2295,918 @@
             "url": "/endoscopic-spine-surgery-a-game-changing-medical-innovation-with-dr-hazem-el-fezary/",
             "date": "2026-08-23 05:57:52",
             "modified": "2026-08-23 05:57:52"
+        },
+        {
+            "id": 861,
+            "type": "post",
+            "slug": "%d8%af%d9%84%d9%8a%d9%84%d9%83-%d8%a7%d9%84%d8%b4%d8%a7%d9%85%d9%84-%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d8%b9%d9%88%d8%ac%d8%a7%d8%ac-%d8%a7%d9%84%d8%b9%d9%85",
+            "title": "دليلك الشامل لعملية تصحيح اعوجاج العمود الفقري (الجنف): التقنيات ونسب النجاح",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%af%d9%84%d9%8a%d9%84%d9%83-%d8%a7%d9%84%d8%b4%d8%a7%d9%85%d9%84-%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d8%b9%d9%88%d8%ac%d8%a7%d8%ac-%d8%a7%d9%84%d8%b9%d9%85/",
+            "date": "2026-09-07 10:00:00",
+            "modified": "2026-09-07 10:00:00"
+        },
+        {
+            "id": 863,
+            "type": "post",
+            "slug": "%d8%b9%d9%84%d8%a7%d8%ac-%d8%aa%d8%ad%d8%af%d8%a8-%d9%88%d9%82%d9%88%d8%b3-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d9%83%d8%a7%d9%8a%d9%81%d9%88%d8%b3%d9%8a%d8%b2-%d9%85%d9%86-%d8%a7%d9%84",
+            "title": "علاج تحدب وقوس الظهر (الكايفوسيز): من التشخيص إلى التعديل الجراحي",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%b9%d9%84%d8%a7%d8%ac-%d8%aa%d8%ad%d8%af%d8%a8-%d9%88%d9%82%d9%88%d8%b3-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d9%83%d8%a7%d9%8a%d9%81%d9%88%d8%b3%d9%8a%d8%b2-%d9%85%d9%86-%d8%a7%d9%84/",
+            "date": "2026-09-08 10:00:00",
+            "modified": "2026-09-08 10:00:00"
+        },
+        {
+            "id": 865,
+            "type": "post",
+            "slug": "%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d9%88%d9%85%d8%ad%d8%a7%d8%b0%d8%a7%d8%a9-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d8%a7%d9%84%d9%85%d8%b5%d8%ad%d9%88%d8%a8-%d8%a8%d8%a7%d9%84%d8%a7%d8%b9%d9%88%d8%ac",
+            "title": "تعديل ومحاذاة التحدب المصحوب بالاعوجاج (الكيفوسكوليوز): علاج التشوهات المزدوجة",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d9%88%d9%85%d8%ad%d8%a7%d8%b0%d8%a7%d8%a9-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d8%a7%d9%84%d9%85%d8%b5%d8%ad%d9%88%d8%a8-%d8%a8%d8%a7%d9%84%d8%a7%d8%b9%d9%88%d8%ac/",
+            "date": "2026-09-09 10:00:00",
+            "modified": "2026-09-09 10:00:00"
+        },
+        {
+            "id": 867,
+            "type": "post",
+            "slug": "%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d8%a3%d8%ad%d8%af",
+            "title": "تصحيح تشوهات العمود الفقري العامة: أحدث الابتكارات في استعادة توازن القوام",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d8%b9%d8%a7%d9%85%d8%a9-%d8%a3%d8%ad%d8%af/",
+            "date": "2026-09-10 10:00:00",
+            "modified": "2026-09-10 10:00:00"
+        },
+        {
+            "id": 869,
+            "type": "post",
+            "slug": "%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d8%af%d9%8a%d9%86%d8%a7%d9%85%d9%8a%d9%83%d9%8a-%d8%a8%d8%af%d9%88%d9%86-%d8%af%d9%85%d8%ac-%d8%a7%d9%84%d9%81%d9%82%d8%b1",
+            "title": "تقويم الجنف الديناميكي بدون دمج الفقرات (VBT): أحدث ثورة لعلاج اعوجاج الظهر",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%aa%d9%82%d9%88%d9%8a%d9%85-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d8%af%d9%8a%d9%86%d8%a7%d9%85%d9%8a%d9%83%d9%8a-%d8%a8%d8%af%d9%88%d9%86-%d8%af%d9%85%d8%ac-%d8%a7%d9%84%d9%81%d9%82%d8%b1/",
+            "date": "2026-09-11 10:00:00",
+            "modified": "2026-09-11 10:00:00"
+        },
+        {
+            "id": 871,
+            "type": "post",
+            "slug": "%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d9%84%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%aa",
+            "title": "جراحات تشوهات العمود الفقري للأطفال: تشخيص وعلاج جنف الأطفال المبكر",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d9%84%d9%84%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%aa/",
+            "date": "2026-09-12 10:00:00",
+            "modified": "2026-09-12 10:00:00"
+        },
+        {
+            "id": 873,
+            "type": "post",
+            "slug": "%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9-%d9%88%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%a7",
+            "title": "جراحات العمود الفقري المعقدة وإعادة التصحيح: عندما تفشل العمليات السابقة",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a7%d9%84%d9%85%d8%b9%d9%82%d8%af%d8%a9-%d9%88%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%a7/",
+            "date": "2026-09-13 10:00:00",
+            "modified": "2026-09-13 10:00:00"
+        },
+        {
+            "id": 875,
+            "type": "post",
+            "slug": "%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d9%88%d8%b9%d9%84%d8%a7%d8%ac-%d8%a3%d9%88%d8%b1%d8%a7%d9%85-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a3%d8%ad%d8%af",
+            "title": "استئصال وعلاج أورام العمود الفقري: أحدث بروتوكولات الحماية العصبية والتثبيت",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d9%88%d8%b9%d9%84%d8%a7%d8%ac-%d8%a3%d9%88%d8%b1%d8%a7%d9%85-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a3%d8%ad%d8%af/",
+            "date": "2026-09-14 10:00:00",
+            "modified": "2026-09-14 10:00:00"
+        },
+        {
+            "id": 877,
+            "type": "post",
+            "slug": "%d8%b9%d9%84%d8%a7%d8%ac-%d9%83%d8%b3%d9%88%d8%b1-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d9%88%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%a8%d9%86%d8%a7%d8%a1-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7",
+            "title": "علاج كسور الفقرات وإعادة بناء العمود الفقري: من الحقن الإسمنتي إلى التثبيت الجراحي",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%b9%d9%84%d8%a7%d8%ac-%d9%83%d8%b3%d9%88%d8%b1-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d9%88%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%a8%d9%86%d8%a7%d8%a1-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7/",
+            "date": "2026-09-15 10:00:00",
+            "modified": "2026-09-15 10:00:00"
+        },
+        {
+            "id": 879,
+            "type": "post",
+            "slug": "%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%b7%d9%81%d9%8a%d9%81%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%ba%d9%84-miss-%d8%aa%d8%b9",
+            "title": "جراحات العمود الفقري طفيفة التوغل (MISS): تعافٍ سريع وبدون فتح جراحي كبير",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%b7%d9%81%d9%8a%d9%81%d8%a9-%d8%a7%d9%84%d8%aa%d9%88%d8%ba%d9%84-miss-%d8%aa%d8%b9/",
+            "date": "2026-09-16 10:00:00",
+            "modified": "2026-09-16 10:00:00"
+        },
+        {
+            "id": 881,
+            "type": "post",
+            "slug": "%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a8%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%83%d9%88%d8%a8-%d8%a7%d9%84",
+            "title": "جراحات العمود الفقري بالميكروسكوب الجراحي: دقة متناهية وأمان عصبي كامل",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%a8%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%83%d9%88%d8%a8-%d8%a7%d9%84/",
+            "date": "2026-09-17 10:00:00",
+            "modified": "2026-09-17 10:00:00"
+        },
+        {
+            "id": 883,
+            "type": "post",
+            "slug": "%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d9%88%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d8%b9%d9%85%d9%88",
+            "title": "جراحات واستئصال الغضروف بمنظار العمود الفقري: أحدث تقنيات اليوم الواحد",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d9%88%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d8%b9%d9%85%d9%88/",
+            "date": "2026-09-18 10:00:00",
+            "modified": "2026-09-18 10:00:00"
+        },
+        {
+            "id": 885,
+            "type": "post",
+            "slug": "%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d9%88%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a",
+            "title": "أمراض واضطرابات غضاريف العمود الفقري: دليلك الشامل من التشخيص إلى الشفاء",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d9%88%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a/",
+            "date": "2026-09-19 10:00:00",
+            "modified": "2026-09-19 10:00:00"
+        },
+        {
+            "id": 887,
+            "type": "post",
+            "slug": "%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d9%88%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%86%d9%82",
+            "title": "أمراض وانزلاقات غضاريف الفقرات العنقية: الأعراض وطرق العلاج الحديثة",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d9%88%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%86%d9%82/",
+            "date": "2026-09-20 10:00:00",
+            "modified": "2026-09-20 10:00:00"
+        },
+        {
+            "id": 889,
+            "type": "post",
+            "slug": "%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d9%88%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d8%b7%d9%86",
+            "title": "أمراض وانزلاقات غضاريف الفقرات القطنية وعرق النسا: أحدث طرق التخلص من الألم",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d9%88%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%ba%d8%b6%d8%a7%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%82%d8%b7%d9%86/",
+            "date": "2026-09-21 10:00:00",
+            "modified": "2026-09-21 10:00:00"
+        },
+        {
+            "id": 891,
+            "type": "post",
+            "slug": "comprehensive-guide-to-scoliosis-correction-surgery-techniques-recovery",
+            "title": "Comprehensive Guide to Scoliosis Correction Surgery: Techniques & Recovery",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/comprehensive-guide-to-scoliosis-correction-surgery-techniques-recovery/",
+            "date": "2026-09-22 10:00:00",
+            "modified": "2026-09-22 10:00:00"
+        },
+        {
+            "id": 893,
+            "type": "post",
+            "slug": "thoracic-kyphosis-treatment-diagnostic-insights-surgical-correction",
+            "title": "Thoracic Kyphosis Treatment: Diagnostic Insights & Surgical Correction",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/thoracic-kyphosis-treatment-diagnostic-insights-surgical-correction/",
+            "date": "2026-09-23 10:00:00",
+            "modified": "2026-09-23 10:00:00"
+        },
+        {
+            "id": 895,
+            "type": "post",
+            "slug": "kyphoscoliosis-realignment-managing-complex-dual-plane-spinal-deformities",
+            "title": "Kyphoscoliosis Realignment: Managing Complex Dual-Plane Spinal Deformities",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/kyphoscoliosis-realignment-managing-complex-dual-plane-spinal-deformities/",
+            "date": "2026-09-24 10:00:00",
+            "modified": "2026-09-24 10:00:00"
+        },
+        {
+            "id": 897,
+            "type": "post",
+            "slug": "adult-pediatric-spine-deformity-correction-advanced-realignment-strategies",
+            "title": "Adult & Pediatric Spine Deformity Correction: Advanced Realignment Strategies",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/adult-pediatric-spine-deformity-correction-advanced-realignment-strategies/",
+            "date": "2026-09-25 10:00:00",
+            "modified": "2026-09-25 10:00:00"
+        },
+        {
+            "id": 899,
+            "type": "post",
+            "slug": "vertebral-body-tethering-vbt-dynamic-non-fusion-scoliosis-correction",
+            "title": "Vertebral Body Tethering (VBT): Dynamic Non-Fusion Scoliosis Correction",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/vertebral-body-tethering-vbt-dynamic-non-fusion-scoliosis-correction/",
+            "date": "2026-09-26 10:00:00",
+            "modified": "2026-09-26 10:00:00"
+        },
+        {
+            "id": 901,
+            "type": "post",
+            "slug": "pediatric-spine-surgery-early-onset-scoliosis-congenital-deformities",
+            "title": "Pediatric Spine Surgery: Early-Onset Scoliosis & Congenital Deformities",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/pediatric-spine-surgery-early-onset-scoliosis-congenital-deformities/",
+            "date": "2026-09-27 10:00:00",
+            "modified": "2026-09-27 10:00:00"
+        },
+        {
+            "id": 903,
+            "type": "post",
+            "slug": "complex-revision-spine-surgeries-advanced-reconstructive-solutions",
+            "title": "Complex & Revision Spine Surgeries: Advanced Reconstructive Solutions",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/complex-revision-spine-surgeries-advanced-reconstructive-solutions/",
+            "date": "2026-09-28 10:00:00",
+            "modified": "2026-09-28 10:00:00"
+        },
+        {
+            "id": 905,
+            "type": "post",
+            "slug": "spinal-tumour-resection-reconstruction-oncological-surgical-protocols",
+            "title": "Spinal Tumour Resection & Reconstruction: Oncological Surgical Protocols",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/spinal-tumour-resection-reconstruction-oncological-surgical-protocols/",
+            "date": "2026-09-29 10:00:00",
+            "modified": "2026-09-29 10:00:00"
+        },
+        {
+            "id": 907,
+            "type": "post",
+            "slug": "vertebral-fractures-spinal-reconstruction-kyphoplasty-complex-stabilization",
+            "title": "Vertebral Fractures & Spinal Reconstruction: Kyphoplasty & Complex Stabilization",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/vertebral-fractures-spinal-reconstruction-kyphoplasty-complex-stabilization/",
+            "date": "2026-09-30 10:00:00",
+            "modified": "2026-09-30 10:00:00"
+        },
+        {
+            "id": 909,
+            "type": "post",
+            "slug": "minimally-invasive-spine-surgeries-miss-rapid-recovery-minimal-tissue-disruption",
+            "title": "Minimally Invasive Spine Surgeries (MISS): Rapid Recovery & Minimal Tissue Disruption",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/minimally-invasive-spine-surgeries-miss-rapid-recovery-minimal-tissue-disruption/",
+            "date": "2026-10-01 10:00:00",
+            "modified": "2026-10-01 10:00:00"
+        },
+        {
+            "id": 911,
+            "type": "post",
+            "slug": "microscopic-spine-surgery-ultra-high-precision-discectomy-decompression",
+            "title": "Microscopic Spine Surgery: Ultra-High Precision Discectomy & Decompression",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/microscopic-spine-surgery-ultra-high-precision-discectomy-decompression/",
+            "date": "2026-10-02 10:00:00",
+            "modified": "2026-10-02 10:00:00"
+        },
+        {
+            "id": 913,
+            "type": "post",
+            "slug": "full-endoscopic-spine-surgery-ultra-minimally-invasive-disc-removal",
+            "title": "Full-Endoscopic Spine Surgery: Ultra-Minimally Invasive Disc Removal",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/full-endoscopic-spine-surgery-ultra-minimally-invasive-disc-removal/",
+            "date": "2026-10-03 10:00:00",
+            "modified": "2026-10-03 10:00:00"
+        },
+        {
+            "id": 915,
+            "type": "post",
+            "slug": "spinal-disc-disorders-comprehensive-diagnosis-tailored-treatment",
+            "title": "Spinal Disc Disorders: Comprehensive Diagnosis & Tailored Treatment",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/spinal-disc-disorders-comprehensive-diagnosis-tailored-treatment/",
+            "date": "2026-10-04 10:00:00",
+            "modified": "2026-10-04 10:00:00"
+        },
+        {
+            "id": 917,
+            "type": "post",
+            "slug": "cervical-disc-disease-radiculopathy-modern-decompression-disc-replacement",
+            "title": "Cervical Disc Disease & Radiculopathy: Modern Decompression & Disc Replacement",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/cervical-disc-disease-radiculopathy-modern-decompression-disc-replacement/",
+            "date": "2026-10-05 10:00:00",
+            "modified": "2026-10-05 10:00:00"
+        },
+        {
+            "id": 919,
+            "type": "post",
+            "slug": "lumbar-disc-disease-sciatica-comprehensive-management-surgical-options",
+            "title": "Lumbar Disc Disease & Sciatica: Comprehensive Management & Surgical Options",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/lumbar-disc-disease-sciatica-comprehensive-management-surgical-options/",
+            "date": "2026-10-06 10:00:00",
+            "modified": "2026-10-06 10:00:00"
+        },
+        {
+            "id": 1143,
+            "type": "post",
+            "slug": "scoliosis-cobb-angle-thresholds-when-bracing-works-vs-when-surgery-is-crucial",
+            "title": "Scoliosis Cobb Angle Thresholds: When Bracing Works vs. When Surgery is Crucial",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/scoliosis-cobb-angle-thresholds-when-bracing-works-vs-when-surgery-is-crucial/",
+            "date": "2026-10-05 10:00:00",
+            "modified": "2026-10-05 10:00:00"
+        },
+        {
+            "id": 1145,
+            "type": "post",
+            "slug": "scheuermanns-kyphosis-structural-pathology-modern-surgical-management",
+            "title": "Scheuermann's Kyphosis: Structural Pathology & Modern Surgical Management",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/scheuermanns-kyphosis-structural-pathology-modern-surgical-management/",
+            "date": "2026-10-06 10:00:00",
+            "modified": "2026-10-06 10:00:00"
+        },
+        {
+            "id": 1147,
+            "type": "post",
+            "slug": "3d-surgical-alignment-for-severe-kyphoscoliosis-overcoming-complex-rigid-deformity",
+            "title": "3D Surgical Alignment for Severe Kyphoscoliosis: Overcoming Complex Rigid Deformity",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/3d-surgical-alignment-for-severe-kyphoscoliosis-overcoming-complex-rigid-deformity/",
+            "date": "2026-10-07 10:00:00",
+            "modified": "2026-10-07 10:00:00"
+        },
+        {
+            "id": 1149,
+            "type": "post",
+            "slug": "spino-pelvic-balance-adult-spinal-deformity-restoring-natural-posture",
+            "title": "Spino-Pelvic Balance & Adult Spinal Deformity: Restoring Natural Posture",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/spino-pelvic-balance-adult-spinal-deformity-restoring-natural-posture/",
+            "date": "2026-10-08 10:00:00",
+            "modified": "2026-10-08 10:00:00"
+        },
+        {
+            "id": 1151,
+            "type": "post",
+            "slug": "candidate-selection-for-vertebral-body-tethering-vbt-growth-curve-criteria",
+            "title": "Candidate Selection for Vertebral Body Tethering (VBT): Growth & Curve Criteria",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/candidate-selection-for-vertebral-body-tethering-vbt-growth-curve-criteria/",
+            "date": "2026-10-09 10:00:00",
+            "modified": "2026-10-09 10:00:00"
+        },
+        {
+            "id": 1153,
+            "type": "post",
+            "slug": "magnetically-controlled-growing-rods-mcgr-revolutionizing-pediatric-scoliosis",
+            "title": "Magnetically Controlled Growing Rods (MCGR): Revolutionizing Pediatric Scoliosis",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/magnetically-controlled-growing-rods-mcgr-revolutionizing-pediatric-scoliosis/",
+            "date": "2026-10-10 10:00:00",
+            "modified": "2026-10-10 10:00:00"
+        },
+        {
+            "id": 1155,
+            "type": "post",
+            "slug": "hardware-loosening-pseudoarthrosis-in-revision-spine-surgery-restoration-techniques",
+            "title": "Hardware Loosening & Pseudoarthrosis in Revision Spine Surgery: Restoration Techniques",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/hardware-loosening-pseudoarthrosis-in-revision-spine-surgery-restoration-techniques/",
+            "date": "2026-10-11 10:00:00",
+            "modified": "2026-10-11 10:00:00"
+        },
+        {
+            "id": 1157,
+            "type": "post",
+            "slug": "metastatic-spinal-cord-compression-mscc-emergency-decompression-stabilization",
+            "title": "Metastatic Spinal Cord Compression (MSCC): Emergency Decompression & Stabilization",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/metastatic-spinal-cord-compression-mscc-emergency-decompression-stabilization/",
+            "date": "2026-10-12 10:00:00",
+            "modified": "2026-10-12 10:00:00"
+        },
+        {
+            "id": 1159,
+            "type": "post",
+            "slug": "kyphoplasty-vs-vertebroplasty-choosing-the-right-procedure-for-vertebral-fractures",
+            "title": "Kyphoplasty vs. Vertebroplasty: Choosing the Right Procedure for Vertebral Fractures",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/kyphoplasty-vs-vertebroplasty-choosing-the-right-procedure-for-vertebral-fractures/",
+            "date": "2026-10-13 10:00:00",
+            "modified": "2026-10-13 10:00:00"
+        },
+        {
+            "id": 1161,
+            "type": "post",
+            "slug": "tubular-retractor-spine-surgery-muscle-sparing-access-for-lumbar-conditions",
+            "title": "Tubular Retractor Spine Surgery: Muscle-Sparing Access for Lumbar Conditions",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/tubular-retractor-spine-surgery-muscle-sparing-access-for-lumbar-conditions/",
+            "date": "2026-10-14 10:00:00",
+            "modified": "2026-10-14 10:00:00"
+        },
+        {
+            "id": 1163,
+            "type": "post",
+            "slug": "microdiscectomy-vs-open-discectomy-precision-safety-and-long-term-outcomes",
+            "title": "Microdiscectomy vs. Open Discectomy: Precision, Safety, and Long-Term Outcomes",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/microdiscectomy-vs-open-discectomy-precision-safety-and-long-term-outcomes/",
+            "date": "2026-10-15 10:00:00",
+            "modified": "2026-10-15 10:00:00"
+        },
+        {
+            "id": 1165,
+            "type": "post",
+            "slug": "transforaminal-vs-interlaminar-endoscopic-spine-surgery-targeted-anatomical-approaches",
+            "title": "Transforaminal vs. Interlaminar Endoscopic Spine Surgery: Targeted Anatomical Approaches",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/transforaminal-vs-interlaminar-endoscopic-spine-surgery-targeted-anatomical-approaches/",
+            "date": "2026-10-16 10:00:00",
+            "modified": "2026-10-16 10:00:00"
+        },
+        {
+            "id": 1167,
+            "type": "post",
+            "slug": "disc-bulge-vs-herniation-pathological-differences-treatment-pathways",
+            "title": "Disc Bulge vs. Herniation: Pathological Differences & Treatment Pathways",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/disc-bulge-vs-herniation-pathological-differences-treatment-pathways/",
+            "date": "2026-10-17 10:00:00",
+            "modified": "2026-10-17 10:00:00"
+        },
+        {
+            "id": 1169,
+            "type": "post",
+            "slug": "cervical-artificial-disc-replacement-adr-preserving-motion-preventing-adjacent-wear",
+            "title": "Cervical Artificial Disc Replacement (ADR): Preserving Motion & Preventing Adjacent Wear",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/cervical-artificial-disc-replacement-adr-preserving-motion-preventing-adjacent-wear/",
+            "date": "2026-10-18 10:00:00",
+            "modified": "2026-10-18 10:00:00"
+        },
+        {
+            "id": 1171,
+            "type": "post",
+            "slug": "foot-drop-caused-by-lumbar-disc-herniation-urgent-decompression-protocols",
+            "title": "Foot Drop Caused by Lumbar Disc Herniation: Urgent Decompression Protocols",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/foot-drop-caused-by-lumbar-disc-herniation-urgent-decompression-protocols/",
+            "date": "2026-10-19 10:00:00",
+            "modified": "2026-10-19 10:00:00"
+        },
+        {
+            "id": 1173,
+            "type": "post",
+            "slug": "%d8%af%d8%b1%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d9%88%d8%b2%d8%a7%d9%88%d9%8a%d8%a9-%d9%83%d9%88%d8%a8-%d9%85%d8%aa%d9%89-%d8%aa%d9%83%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d9%85%d8%a7%d8%b1",
+            "title": "درجات الجنف وزاوية كوب: متى تكفي التمارين ومتى تصبح العملية حتمية؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%af%d8%b1%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d9%88%d8%b2%d8%a7%d9%88%d9%8a%d8%a9-%d9%83%d9%88%d8%a8-%d9%85%d8%aa%d9%89-%d8%aa%d9%83%d9%81%d9%8a-%d8%a7%d9%84%d8%aa%d9%85%d8%a7%d8%b1/",
+            "date": "2026-10-20 10:00:00",
+            "modified": "2026-10-20 10:00:00"
+        },
+        {
+            "id": 1175,
+            "type": "post",
+            "slug": "%d9%85%d8%b1%d8%b6-%d8%b4%d9%88%d9%8a%d8%b1%d9%85%d8%a7%d9%86-%d9%88%d8%aa%d8%ad%d8%af%d8%a8-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d8%b5%d8%af%d8%b1%d9%8a-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8%d9%87",
+            "title": "مرض شويرمان وتحدب الظهر الصدري: أسبابه وطرق علاجه المتقدمة",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d9%85%d8%b1%d8%b6-%d8%b4%d9%88%d9%8a%d8%b1%d9%85%d8%a7%d9%86-%d9%88%d8%aa%d8%ad%d8%af%d8%a8-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d8%b5%d8%af%d8%b1%d9%8a-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8%d9%87/",
+            "date": "2026-10-21 10:00:00",
+            "modified": "2026-10-21 10:00:00"
+        },
+        {
+            "id": 1177,
+            "type": "post",
+            "slug": "%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d9%88%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d9%85%d8%b2%d8%af%d9%88%d8%ac-%d8%a7%d9%84%d9%83%d9%8a%d9%81%d9%88%d8%b3%d9%83",
+            "title": "جراحة التحدب والجنف المزدوج (الكيفوسكوليوز): كيف يعيد الجراح توازن الظهر ثلاثي الأبعاد؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d8%a8-%d9%88%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d9%85%d8%b2%d8%af%d9%88%d8%ac-%d8%a7%d9%84%d9%83%d9%8a%d9%81%d9%88%d8%b3%d9%83/",
+            "date": "2026-10-22 10:00:00",
+            "modified": "2026-10-22 10:00:00"
+        },
+        {
+            "id": 1179,
+            "type": "post",
+            "slug": "%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d8%b2%d9%86-%d8%a7%d9%84%d8%ad%d9%88%d8%b6%d9%8a-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a-%d9%88%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7",
+            "title": "التوازن الحوضي الشوكي وتصحيح تشوهات الظهر لدى البالغين: سر المشي بدون ألم",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d9%84%d8%aa%d9%88%d8%a7%d8%b2%d9%86-%d8%a7%d9%84%d8%ad%d9%88%d8%b6%d9%8a-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a-%d9%88%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7/",
+            "date": "2026-10-23 10:00:00",
+            "modified": "2026-10-23 10:00:00"
+        },
+        {
+            "id": 1181,
+            "type": "post",
+            "slug": "%d8%b4%d8%b1%d9%88%d8%b7-%d9%88%d8%aa%d9%88%d9%82%d9%8a%d8%aa-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-vbt-%d9%84%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d9%87%d9%84-%d8%b7%d9%81%d9%84",
+            "title": "شروط وتوقيت عملية VBT لتصحيح الجنف: هل طفلك مرشح مناسب للتقويم الديناميكي؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%b4%d8%b1%d9%88%d8%b7-%d9%88%d8%aa%d9%88%d9%82%d9%8a%d8%aa-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-vbt-%d9%84%d8%aa%d8%b5%d8%ad%d9%8a%d8%ad-%d8%a7%d9%84%d8%ac%d9%86%d9%81-%d9%87%d9%84-%d8%b7%d9%81%d9%84/",
+            "date": "2026-10-24 10:00:00",
+            "modified": "2026-10-24 10:00:00"
+        },
+        {
+            "id": 1183,
+            "type": "post",
+            "slug": "%d9%82%d8%b6%d8%a8%d8%a7%d9%86-%d8%a7%d9%84%d9%86%d9%85%d9%88-%d8%a7%d9%84%d9%85%d8%ba%d9%86%d8%a7%d8%b7%d9%8a%d8%b3%d9%8a%d8%a9-mcgr-%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%ac%d9%86%d9%81-%d8%a7%d9%84",
+            "title": "قضبان النمو المغناطيسية (MCGR) لعلاج جنف الأطفال: توديع الجراحات المتكررة",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d9%82%d8%b6%d8%a8%d8%a7%d9%86-%d8%a7%d9%84%d9%86%d9%85%d9%88-%d8%a7%d9%84%d9%85%d8%ba%d9%86%d8%a7%d8%b7%d9%8a%d8%b3%d9%8a%d8%a9-mcgr-%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%ac%d9%86%d9%81-%d8%a7%d9%84/",
+            "date": "2026-10-25 10:00:00",
+            "modified": "2026-10-25 10:00:00"
+        },
+        {
+            "id": 1185,
+            "type": "post",
+            "slug": "%d8%aa%d8%ae%d9%84%d8%ae%d9%84-%d9%85%d8%b3%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d9%88%d9%81%d8%b4%d9%84-%d8%a7%d9%84%d8%a7%d9%84%d8%aa%d8%a6%d8%a7%d9%85-%d9%83%d9%8a%d9%81-%d9%8a",
+            "title": "تخلخل مسامير الظهر وفشل الالتئام: كيف يتم إصلاح وتعديل جراحات العمود الفقري؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%aa%d8%ae%d9%84%d8%ae%d9%84-%d9%85%d8%b3%d8%a7%d9%85%d9%8a%d8%b1-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d9%88%d9%81%d8%b4%d9%84-%d8%a7%d9%84%d8%a7%d9%84%d8%aa%d8%a6%d8%a7%d9%85-%d9%83%d9%8a%d9%81-%d9%8a/",
+            "date": "2026-10-26 10:00:00",
+            "modified": "2026-10-26 10:00:00"
+        },
+        {
+            "id": 1187,
+            "type": "post",
+            "slug": "%d8%a7%d9%84%d8%b6%d8%ba%d8%b7-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ad%d8%a8%d9%84-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a-%d8%a8%d8%b3%d8%a8%d8%a8-%d8%ab%d8%a7%d9%86%d9%88%d9%8a%d8%a7%d8%aa-%d8%a3%d9%88",
+            "title": "الضغط على الحبل الشوكي بسبب ثانويات أورام الفقرات: متى تكون الجراحة إنقاذاً عاجلاً؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d9%84%d8%b6%d8%ba%d8%b7-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%ad%d8%a8%d9%84-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a-%d8%a8%d8%b3%d8%a8%d8%a8-%d8%ab%d8%a7%d9%86%d9%88%d9%8a%d8%a7%d8%aa-%d8%a3%d9%88/",
+            "date": "2026-10-27 10:00:00",
+            "modified": "2026-10-27 10:00:00"
+        },
+        {
+            "id": 1189,
+            "type": "post",
+            "slug": "%d8%a7%d9%84%d9%81%d8%b1%d9%82-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%83%d8%a7%d9%8a%d9%81%d9%88%d8%a8%d9%84%d8%a7%d8%b3%d8%aa%d9%8a-%d8%a8%d8%a7%d9%84%d9%88%d9%86-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7",
+            "title": "الفرق بين الكايفوبلاستي (بالون الفقرات) والفيرتيبروبلاستي: أي تقنية أنسب لكسرك؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d9%84%d9%81%d8%b1%d9%82-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%83%d8%a7%d9%8a%d9%81%d9%88%d8%a8%d9%84%d8%a7%d8%b3%d8%aa%d9%8a-%d8%a8%d8%a7%d9%84%d9%88%d9%86-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d8%a7/",
+            "date": "2026-10-28 10:00:00",
+            "modified": "2026-10-28 10:00:00"
+        },
+        {
+            "id": 1191,
+            "type": "post",
+            "slug": "%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%86%d8%a7%d8%a8%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d8%aa%d9%85%d8%af%d8%af%d8%a9-%d9%81%d9%8a-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%b9%d9%85",
+            "title": "تقنية الأنابيب المتمددة في جراحة العمود الفقري: كيف تمنع تلف عضلات الظهر؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%aa%d9%82%d9%86%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%86%d8%a7%d8%a8%d9%8a%d8%a8-%d8%a7%d9%84%d9%85%d8%aa%d9%85%d8%af%d8%af%d8%a9-%d9%81%d9%8a-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%b9%d9%85/",
+            "date": "2026-10-29 10:00:00",
+            "modified": "2026-10-29 10:00:00"
+        },
+        {
+            "id": 1193,
+            "type": "post",
+            "slug": "%d9%85%d9%82%d8%a7%d8%b1%d9%86%d8%a9-%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%83%d9%88%d8%a8",
+            "title": "مقارنة استئصال الغضروف بالميكروسكوب والعملية المفتوحة: أيهما أفضل لمريض الديسك؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d9%85%d9%82%d8%a7%d8%b1%d9%86%d8%a9-%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d8%b3%d9%83%d9%88%d8%a8/",
+            "date": "2026-10-30 10:00:00",
+            "modified": "2026-10-30 10:00:00"
+        },
+        {
+            "id": 1195,
+            "type": "post",
+            "slug": "%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%b9%d8%a8%d8%b1-%d8%a7%d9%84%d9%81%d8%aa%d8%ad%d8%a9-%d8%a7%d9%84%d8%b9%d8%ac%d8%b2%d9%8a",
+            "title": "منظار العمود الفقري عبر الفتحة العجزية والعجزية الجانبية: تقنيات استئصال الديسك بدون تخدير كلي",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d8%b9%d8%a8%d8%b1-%d8%a7%d9%84%d9%81%d8%aa%d8%ad%d8%a9-%d8%a7%d9%84%d8%b9%d8%ac%d8%b2%d9%8a/",
+            "date": "2026-10-31 10:00:00",
+            "modified": "2026-10-31 10:00:00"
+        },
+        {
+            "id": 1197,
+            "type": "post",
+            "slug": "%d8%a7%d9%84%d9%81%d8%b1%d9%82-%d8%a8%d9%8a%d9%86-%d8%a8%d8%b1%d9%88%d8%b2-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-disc-bulge-%d9%88%d9%81%d8%aa%d9%82-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81",
+            "title": "الفرق بين بروز الغضروف (Disc Bulge) وفتق الغضروف (Disc Herniation): الأعراض وخطة العلاج",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d9%84%d9%81%d8%b1%d9%82-%d8%a8%d9%8a%d9%86-%d8%a8%d8%b1%d9%88%d8%b2-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-disc-bulge-%d9%88%d9%81%d8%aa%d9%82-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81/",
+            "date": "2026-11-01 10:00:00",
+            "modified": "2026-11-01 10:00:00"
+        },
+        {
+            "id": 1199,
+            "type": "post",
+            "slug": "%d8%a7%d8%b3%d8%aa%d8%a8%d8%af%d8%a7%d9%84-%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%b1%d9%82%d8%a8%d8%a9-%d8%a8%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%b5%d9%86%d8%a7%d8%b9%d9%8a-%d9%85%d8%aa%d8%ad",
+            "title": "استبدال غضروف الرقبة بغضروف صناعي متحرك (ADR): الحفاظ على حركة الرقبة بالكامل",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d8%b3%d8%aa%d8%a8%d8%af%d8%a7%d9%84-%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%b1%d9%82%d8%a8%d8%a9-%d8%a8%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%b5%d9%86%d8%a7%d8%b9%d9%8a-%d9%85%d8%aa%d8%ad/",
+            "date": "2026-11-02 10:00:00",
+            "modified": "2026-11-02 10:00:00"
+        },
+        {
+            "id": 1201,
+            "type": "post",
+            "slug": "%d8%b3%d9%82%d9%88%d8%b7-%d8%a7%d9%84%d9%82%d8%af%d9%85-%d9%88%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81%d9%8a-%d8%a7%d9%84%d9%82%d8%b7%d9%86%d9%8a",
+            "title": "سقوط القدم والانزلاق الغضروفي القطني: لماذا يعد ضعف المشط علامة طوارئ عاجلة؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%b3%d9%82%d9%88%d8%b7-%d8%a7%d9%84%d9%82%d8%af%d9%85-%d9%88%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81%d9%8a-%d8%a7%d9%84%d9%82%d8%b7%d9%86%d9%8a/",
+            "date": "2026-11-03 10:00:00",
+            "modified": "2026-11-03 10:00:00"
+        },
+        {
+            "id": 1244,
+            "type": "post",
+            "slug": "%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d8%a8%d8%a7%d9%84%d8%ba%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d9%86%d9%83%d8%b3%d9%8a-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8%d9%87-%d9%88%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7",
+            "title": "جنف البالغين التنكسي: أسبابه وخيارات العلاج من التحفظي إلى التدخل الجراحي",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ac%d9%86%d9%81-%d8%a7%d9%84%d8%a8%d8%a7%d9%84%d8%ba%d9%8a%d9%86-%d8%a7%d9%84%d8%aa%d9%86%d9%83%d8%b3%d9%8a-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8%d9%87-%d9%88%d8%ae%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7/",
+            "date": "2026-11-01 10:00:00",
+            "modified": "2026-11-01 10:00:00"
+        },
+        {
+            "id": 1246,
+            "type": "post",
+            "slug": "%d8%a7%d8%b9%d8%aa%d9%84%d8%a7%d9%84-%d8%a7%d9%84%d8%ad%d8%a8%d9%84-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%8a-cervical-myelopathy-%d8%b9%d9%84%d8%a7%d9%85%d8%a7",
+            "title": "اعتلال الحبل الشوكي العنقي (Cervical Myelopathy): علامات الخطر وبروتوكول العلاج",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d8%b9%d8%aa%d9%84%d8%a7%d9%84-%d8%a7%d9%84%d8%ad%d8%a8%d9%84-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a-%d8%a7%d9%84%d8%b9%d9%86%d9%82%d9%8a-cervical-myelopathy-%d8%b9%d9%84%d8%a7%d9%85%d8%a7/",
+            "date": "2026-11-02 10:00:00",
+            "modified": "2026-11-02 10:00:00"
+        },
+        {
+            "id": 1248,
+            "type": "post",
+            "slug": "%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%84-ul",
+            "title": "توسيع القناة الشوكية بالمنظار الكامل (ULBD): حل ضيق الفقرات دون مساس بثبات الظهر",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%aa%d9%88%d8%b3%d9%8a%d8%b9-%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%a9-%d8%a7%d9%84%d8%b4%d9%88%d9%83%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%84-ul/",
+            "date": "2026-11-03 10:00:00",
+            "modified": "2026-11-03 10:00:00"
+        },
+        {
+            "id": 1250,
+            "type": "post",
+            "slug": "%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%81%d9%82%d8%a7%d8%b1%d9%8a-spondylolisthesis-%d8%af%d8%b1%d8%ac%d8%a7%d8%aa%d9%87%d8%8c-%d8%a3%d8%b9%d8%b1%d8%a7%d8%b6%d9%87%d8%8c",
+            "title": "الانزلاق الفقاري (Spondylolisthesis): درجاته، أعراضه، وطرق علاجه الدقيقة",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d9%84%d8%a7%d9%86%d8%b2%d9%84%d8%a7%d9%82-%d8%a7%d9%84%d9%81%d9%82%d8%a7%d8%b1%d9%8a-spondylolisthesis-%d8%af%d8%b1%d8%ac%d8%a7%d8%aa%d9%87%d8%8c-%d8%a3%d8%b9%d8%b1%d8%a7%d8%b6%d9%87%d8%8c/",
+            "date": "2026-11-04 10:00:00",
+            "modified": "2026-11-04 10:00:00"
+        },
+        {
+            "id": 1252,
+            "type": "post",
+            "slug": "%d9%85%d8%aa%d9%84%d8%a7%d8%b2%d9%85%d8%a9-%d8%b0%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d8%b1%d8%b3-cauda-equina-%d8%b9%d9%84%d8%a7%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b7%d9%88%d8%a7%d8%b1%d8%a6-%d8%a7",
+            "title": "متلازمة ذيل الفرس (Cauda Equina): علامات الطوارئ الجراحية التي لا تحتمل التأخير",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d9%85%d8%aa%d9%84%d8%a7%d8%b2%d9%85%d8%a9-%d8%b0%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d8%b1%d8%b3-cauda-equina-%d8%b9%d9%84%d8%a7%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d8%b7%d9%88%d8%a7%d8%b1%d8%a6-%d8%a7/",
+            "date": "2026-11-05 10:00:00",
+            "modified": "2026-11-05 10:00:00"
+        },
+        {
+            "id": 1254,
+            "type": "post",
+            "slug": "%d8%a7%d9%84%d8%aa%d8%b1%d8%af%d8%af-%d8%a7%d9%84%d8%ad%d8%b1%d8%a7%d8%b1%d9%8a-%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%ae%d8%b4%d9%88%d9%86%d8%a9-%d9%85%d9%81%d8%a7%d8%b5%d9%84-%d8%a7%d9%84%d9%81%d9%82",
+            "title": "التردد الحراري لعلاج خشونة مفاصل الفقرات وآلام الظهر: تقنية اليوم الواحد بدون جراحة",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d9%84%d8%aa%d8%b1%d8%af%d8%af-%d8%a7%d9%84%d8%ad%d8%b1%d8%a7%d8%b1%d9%8a-%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%ae%d8%b4%d9%88%d9%86%d8%a9-%d9%85%d9%81%d8%a7%d8%b5%d9%84-%d8%a7%d9%84%d9%81%d9%82/",
+            "date": "2026-11-06 10:00:00",
+            "modified": "2026-11-06 10:00:00"
+        },
+        {
+            "id": 1256,
+            "type": "post",
+            "slug": "%d8%ad%d9%82%d9%86-%d8%ac%d8%b0%d9%88%d8%b1-%d8%a7%d9%84%d8%a3%d8%b9%d8%b5%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%ac%d9%87-%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%b9%d8%b1%d9%82-%d8%a7%d9%84%d9%86%d8%b3",
+            "title": "حقن جذور الأعصاب الموجه لعلاج عرق النسا: متى يغني عن جراحة الغضروف؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%ad%d9%82%d9%86-%d8%ac%d8%b0%d9%88%d8%b1-%d8%a7%d9%84%d8%a3%d8%b9%d8%b5%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%ac%d9%87-%d9%84%d8%b9%d9%84%d8%a7%d8%ac-%d8%b9%d8%b1%d9%82-%d8%a7%d9%84%d9%86%d8%b3/",
+            "date": "2026-11-07 10:00:00",
+            "modified": "2026-11-07 10:00:00"
+        },
+        {
+            "id": 1258,
+            "type": "post",
+            "slug": "%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%b1%d9%82%d8%a8%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d8%ae%d9%84%d9%81%d9%8a-pc",
+            "title": "استئصال غضروف الرقبة بالمنظار الخلفي (PCED): إزالة ديسك الرقبة دون دمج الفقرات",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d8%b3%d8%aa%d8%a6%d8%b5%d8%a7%d9%84-%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a7%d9%84%d8%b1%d9%82%d8%a8%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d8%ae%d9%84%d9%81%d9%8a-pc/",
+            "date": "2026-11-08 10:00:00",
+            "modified": "2026-11-08 10:00:00"
+        },
+        {
+            "id": 1260,
+            "type": "post",
+            "slug": "%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%b9%d8%b5%d8%a8",
+            "title": "تشوهات العمود الفقري في الأمراض العصبية العضلية (الشلل الدماغي وضمور العضلات): التحديات والحلول",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%aa%d8%b4%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%82%d8%b1%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d8%a7%d8%b6-%d8%a7%d9%84%d8%b9%d8%b5%d8%a8/",
+            "date": "2026-11-09 10:00:00",
+            "modified": "2026-11-09 10:00:00"
+        },
+        {
+            "id": 1262,
+            "type": "post",
+            "slug": "%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1-%d9%81%d8%ad%d8%b5-%d8%a7%d8%b9%d9%88%d8%ac%d8%a7%d8%ac-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d9%85%d9%86%d8%b2%d9%84%d9%8a-adams-forward-bend-%d9%83",
+            "title": "اختبار فحص اعوجاج الظهر المنزلي (Adam's Forward Bend): كيف تكتشف الجنف مبكراً؟",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d8%ae%d8%aa%d8%a8%d8%a7%d8%b1-%d9%81%d8%ad%d8%b5-%d8%a7%d8%b9%d9%88%d8%ac%d8%a7%d8%ac-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d9%85%d9%86%d8%b2%d9%84%d9%8a-adams-forward-bend-%d9%83/",
+            "date": "2026-11-10 10:00:00",
+            "modified": "2026-11-10 10:00:00"
+        },
+        {
+            "id": 1264,
+            "type": "post",
+            "slug": "%d9%85%d8%aa%d9%84%d8%a7%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d9%85%d8%b3%d8%b7%d8%ad-%d8%a8%d8%b9%d8%af-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ab%d8%a8",
+            "title": "متلازمة الظهر المسطح بعد جراحات التثبيت القديمة: أسبابها وكيفية استعادة القوام الطبيعي",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d9%85%d8%aa%d9%84%d8%a7%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d8%b8%d9%87%d8%b1-%d8%a7%d9%84%d9%85%d8%b3%d8%b7%d8%ad-%d8%a8%d8%b9%d8%af-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%ab%d8%a8/",
+            "date": "2026-11-11 10:00:00",
+            "modified": "2026-11-11 10:00:00"
+        },
+        {
+            "id": 1266,
+            "type": "post",
+            "slug": "%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d8%b1%d8%aa%d8%ac%d8%a7%d8%b9-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%84-%d8%ad",
+            "title": "علاج ارتجاع الغضروف بالمنظار الكامل: حل الانزلاق المتكرر بدون إزالة التثبيت أو دمج الفقرات",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%b9%d9%84%d8%a7%d8%ac-%d8%a7%d8%b1%d8%aa%d8%ac%d8%a7%d8%b9-%d8%a7%d9%84%d8%ba%d8%b6%d8%b1%d9%88%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%b8%d8%a7%d8%b1-%d8%a7%d9%84%d9%83%d8%a7%d9%85%d9%84-%d8%ad/",
+            "date": "2026-11-12 10:00:00",
+            "modified": "2026-11-12 10:00:00"
+        },
+        {
+            "id": 1268,
+            "type": "post",
+            "slug": "%d8%a2%d9%84%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d9%81%d8%b5%d9%84-%d8%a7%d9%84%d8%b9%d8%ac%d8%b2%d9%8a-%d8%a7%d9%84%d8%ad%d8%b1%d9%82%d9%81%d9%8a-si-joint-%d8%a7%d9%84%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5",
+            "title": "آلام المفصل العجزي الحرقفي (SI Joint): التشخيص وطرق التثبيت طفيف التوغل",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a2%d9%84%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d9%81%d8%b5%d9%84-%d8%a7%d9%84%d8%b9%d8%ac%d8%b2%d9%8a-%d8%a7%d9%84%d8%ad%d8%b1%d9%82%d9%81%d9%8a-si-joint-%d8%a7%d9%84%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5/",
+            "date": "2026-11-13 10:00:00",
+            "modified": "2026-11-13 10:00:00"
+        },
+        {
+            "id": 1270,
+            "type": "post",
+            "slug": "%d9%83%d8%b3%d9%88%d8%b1-%d9%87%d8%b4%d8%a7%d8%b4%d8%a9-%d8%a7%d9%84%d8%b9%d8%b8%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d8%b9%d8%af%d8%af%d8%a9-%d8%a8%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84",
+            "title": "كسور هشاشة العظام المتعددة بالعمود الفقري: استراتيجيات الحقن والتثبيت الوقائي",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d9%83%d8%b3%d9%88%d8%b1-%d9%87%d8%b4%d8%a7%d8%b4%d8%a9-%d8%a7%d9%84%d8%b9%d8%b8%d8%a7%d9%85-%d8%a7%d9%84%d9%85%d8%aa%d8%b9%d8%af%d8%af%d8%a9-%d8%a8%d8%a7%d9%84%d8%b9%d9%85%d9%88%d8%af-%d8%a7%d9%84/",
+            "date": "2026-11-14 10:00:00",
+            "modified": "2026-11-14 10:00:00"
+        },
+        {
+            "id": 1272,
+            "type": "post",
+            "slug": "%d8%a7%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d9%84%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b4%d8%a7%d8%b7-%d8%a8%d8%b9%d8%af-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%b9%d9%85",
+            "title": "العودة للرياضة والنشاط بعد جراحة العمود الفقري: إرشادات الأمان ومراحل التأهيل",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "ar",
+            "url": "/ar/%d8%a7%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d9%84%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d8%a9-%d9%88%d8%a7%d9%84%d9%86%d8%b4%d8%a7%d8%b7-%d8%a8%d8%b9%d8%af-%d8%ac%d8%b1%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d8%b9%d9%85/",
+            "date": "2026-11-15 10:00:00",
+            "modified": "2026-11-15 10:00:00"
+        },
+        {
+            "id": 1274,
+            "type": "post",
+            "slug": "adult-degenerative-scoliosis-clinical-progression-modern-surgical-options",
+            "title": "Adult Degenerative Scoliosis: Clinical Progression & Modern Surgical Options",
+            "parent": 0,
+            "menu_order": 0,
+            "lang": "en",
+            "url": "/adult-degenerative-scoliosis-clinical-progression-modern-surgical-options/",
+            "date": "2026-11-16 10:00:00",
+            "modified": "2026-11-16 10:00:00"
         }
     ],
     "terms": [
@@ -1585,7 +3217,106 @@
             "name": "Uncategorized",
             "lang": "en",
             "url": "/category/uncategorized/",
-            "count": 50
+            "count": 126
+        },
+        {
+            "id": 113,
+            "tax": "faq_topic",
+            "slug": "chronic-pain-management-non-surgical-therapies",
+            "name": "Chronic Pain Management &amp; Non-Surgical Therapies",
+            "lang": "en",
+            "url": "/faq-topic/chronic-pain-management-non-surgical-therapies/",
+            "count": 1
+        },
+        {
+            "id": 74,
+            "tax": "faq_topic",
+            "slug": "complex-reconstructive-revision-spine-surgeries",
+            "name": "Complex Reconstructive &amp; Revision Spine Surgeries",
+            "lang": "en",
+            "url": "/faq-topic/complex-reconstructive-revision-spine-surgeries/",
+            "count": 2
+        },
+        {
+            "id": 10,
+            "tax": "faq_topic",
+            "slug": "disc-disorders",
+            "name": "Disc Disorders",
+            "lang": "en",
+            "url": "/faq-topic/disc-disorders/",
+            "count": 2
+        },
+        {
+            "id": 95,
+            "tax": "faq_topic",
+            "slug": "disc-disorders-sciatica-cervical-lumbar-diseases",
+            "name": "Disc Disorders, Sciatica &amp; Cervical/Lumbar Diseases",
+            "lang": "en",
+            "url": "/faq-topic/disc-disorders-sciatica-cervical-lumbar-diseases/",
+            "count": 7
+        },
+        {
+            "id": 8,
+            "tax": "faq_topic",
+            "slug": "dynamic-correction-vbt",
+            "name": "Dynamic Correction (VBT)",
+            "lang": "en",
+            "url": "/faq-topic/dynamic-correction-vbt/",
+            "count": 4
+        },
+        {
+            "id": 9,
+            "tax": "faq_topic",
+            "slug": "minimally-invasive-surgery",
+            "name": "Minimally Invasive Surgery",
+            "lang": "en",
+            "url": "/faq-topic/minimally-invasive-surgery/",
+            "count": 2
+        },
+        {
+            "id": 87,
+            "tax": "faq_topic",
+            "slug": "minimally-invasive-microscopic-endoscopic-spine-surgeries",
+            "name": "Minimally Invasive, Microscopic &amp; Endoscopic Spine Surgeries",
+            "lang": "en",
+            "url": "/faq-topic/minimally-invasive-microscopic-endoscopic-spine-surgeries/",
+            "count": 4
+        },
+        {
+            "id": 106,
+            "tax": "faq_topic",
+            "slug": "spinal-canal-stenosis-spondylolisthesis-structural-disorders",
+            "name": "Spinal Canal Stenosis, Spondylolisthesis &amp; Structural Disorders",
+            "lang": "en",
+            "url": "/faq-topic/spinal-canal-stenosis-spondylolisthesis-structural-disorders/",
+            "count": 3
+        },
+        {
+            "id": 80,
+            "tax": "faq_topic",
+            "slug": "spinal-tumours-vertebral-trauma-reconstruction",
+            "name": "Spinal Tumours &amp; Vertebral Trauma Reconstruction",
+            "lang": "en",
+            "url": "/faq-topic/spinal-tumours-vertebral-trauma-reconstruction/",
+            "count": 3
+        },
+        {
+            "id": 62,
+            "tax": "faq_topic",
+            "slug": "spine-deformity-scoliosis-pediatric-correction",
+            "name": "Spine Deformity, Scoliosis &amp; Pediatric Correction",
+            "lang": "en",
+            "url": "/faq-topic/spine-deformity-scoliosis-pediatric-correction/",
+            "count": 8
+        },
+        {
+            "id": 118,
+            "tax": "faq_topic",
+            "slug": "surgical-precision-pre-op-planning-international-patient-care",
+            "name": "Surgical Precision, Pre-Op Planning &amp; International Patient Care",
+            "lang": "en",
+            "url": "/faq-topic/surgical-precision-pre-op-planning-international-patient-care/",
+            "count": 2
         }
     ]
 }

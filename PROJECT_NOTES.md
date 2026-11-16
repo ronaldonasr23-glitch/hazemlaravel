@@ -1,9 +1,14 @@
-# Prof. Dr. Hazem El Fezary — Laravel replica of `hazemfezary` (WordPress)
+# Prof. Dr. Hazem El Fezary — Laravel replica of `hazembefore` (WordPress)
 
 A Laravel 13 + Filament application that reproduces the bilingual (English +
-Arabic/Polylang) WordPress site `hazemfezary` (Elementor Pro, theme
+Arabic/Polylang) WordPress site **`hazembefore`** — the complete, up-to-date
+source (all page/article/image edits), captured in full — (Elementor Pro, theme
 **hello-elementor**) with a MySQL backend, an admin dashboard, a Yoast-style SEO
 module, Google integration and a redirect manager.
+
+Content: **63 pages, 126 articles, 68 medical FAQ, 4 cases** (+ archives), in
+English and Arabic. (An earlier build captured the older `hazemfezary` copy,
+which was missing most of this content.)
 
 Built with the exact method used for the `chem` replica, adapted for this site's
 two big differences: **hierarchical page URLs** and **two languages**.
@@ -72,7 +77,8 @@ non-200s already 404 on the original WordPress site (orphaned Arabic
   original Yoast layout, generated from the `pages` table.
 
 ## Rebuild from scratch
-Requires the live WordPress source (`hazemfezary.test`) to be running.
+Requires the live WordPress source (`hazembefore.test`) to be running.
+Source host/DB are set in `.env` (`WP_SOURCE_HOST`, `WP_DB_DATABASE`).
 ```bash
 php artisan migrate:fresh          # create tables
 php artisan db:seed                # roles + admin users
@@ -84,12 +90,17 @@ copy described above. Source of truth for URLs: `database/seeders/raw/urls.json`
 (generated from the live site via `get_permalink`) and `sitemap_urls.txt`.
 
 ## Source site facts (for reference)
-- DB `hazemfezary`, theme `hello-elementor`, Elementor 4.3.6 + Pro 4.1.1
+- DB `hazembefore`, theme `hello-elementor`, Elementor 4.3.6 + Pro 4.1.1
 - Polylang: `en` (default, no prefix) + `ar` (`/ar/` prefix); permalinks
   `/%postname%/` with hierarchical pages
-- Content: 63 pages (31 en + 32 ar), 50 posts, 4 cases, 8 medical_faq,
+- Content: 63 pages (31 en + 32 ar), 126 posts, 4 cases, 68 medical_faq,
   custom types `cases` (slug `cases`) and `medical_faq` (slug `medical-faq`,
   taxonomy `faq-topic`)
+- Two source fixes were needed before capture: (1) the site's `.htaccess` was
+  empty (missing the WordPress rewrite block) so every permalink 404'd — restored
+  the standard block; (2) the rendered HTML contains invalid UTF-8 byte sequences
+  (the site runs a `hazem-encoding-fix` plugin), so `wp:capture` scrubs each
+  captured string to valid UTF-8 (`mb_scrub`) before storing.
 
 ## Notes / for production
 - Canonical/OG URLs in captured heads point to `hazemlaravel.test` (the source

@@ -144,8 +144,8 @@ class CaptureSite extends Command
             return;
         }
 
-        $head = $this->rewriteHost($parts['head']);
-        $body = $this->rewriteHost($parts['body']);
+        $head = $this->clean($this->rewriteHost($parts['head']));
+        $body = $this->clean($this->rewriteHost($parts['body']));
 
         Page::updateOrCreate(
             ['path' => $meta['is_front'] ? '' : $meta['path']],
@@ -155,8 +155,8 @@ class CaptureSite extends Command
                 'wp_type'      => $meta['wp_type'],
                 'wp_id'        => $meta['wp_id'],
                 'wp_parent_id' => $meta['wp_parent_id'],
-                'title'        => mb_substr((string) $meta['title'], 0, 250),
-                'body_class'   => mb_substr($parts['body_class'] ?? '', 0, 990),
+                'title'        => mb_substr($this->clean((string) $meta['title']), 0, 250),
+                'body_class'   => mb_substr($this->clean($parts['body_class'] ?? ''), 0, 990),
                 'html_lang'    => $parts['html_lang'] ?? null,
                 'html_dir'     => $parts['html_dir'] ?? null,
                 'head_html'    => $head,
@@ -241,6 +241,23 @@ class CaptureSite extends Command
             ['http://' . $this->appHost, '//' . $this->appHost],
             $s
         );
+    }
+
+    /**
+     * Drop invalid UTF-8 byte sequences (the hazembefore source has encoding
+     * issues) so the HTML stores cleanly in the utf8mb4 columns.
+     */
+    private function clean(string $s): string
+    {
+        if ($s === '') {
+            return $s;
+        }
+        $clean = @mb_scrub($s, 'UTF-8');
+        if ($clean === false || $clean === null) {
+            $clean = @mb_convert_encoding($s, 'UTF-8', 'UTF-8');
+        }
+
+        return is_string($clean) ? $clean : $s;
     }
 
     private function normalizePath(string $url): string
