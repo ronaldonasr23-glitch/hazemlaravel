@@ -22,6 +22,12 @@ class PostResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
+    // Not used on this site (hazemfezary content lives in Pages/Articles/FAQ/Cases).
+    public static function shouldRegisterNavigation(): bool
+    {
+        return false;
+    }
+
     public static function form(Schema $schema): Schema
     {
         return PostForm::configure($schema);

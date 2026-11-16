@@ -2,6 +2,9 @@
 
 namespace App\Filament\Concerns;
 
+use App\Models\Article;
+use App\Models\CaseStudy;
+use App\Models\Faq;
 use App\Models\Page;
 use App\Models\Portfolio;
 use App\Models\Post;
@@ -14,6 +17,9 @@ trait AuthorizesWithPermission
 {
     protected static array $permissionMap = [
         Post::class       => 'manage_posts',
+        Article::class    => 'manage_posts',
+        Faq::class        => 'manage_pages',
+        CaseStudy::class  => 'manage_pages',
         Page::class       => 'manage_pages',
         Service::class    => 'manage_services',
         TeamMember::class => 'manage_team',

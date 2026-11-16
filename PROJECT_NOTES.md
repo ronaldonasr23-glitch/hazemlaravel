@@ -44,6 +44,14 @@ non-200s already 404 on the original WordPress site (orphaned Arabic
   `head_html`, `content_html`, `body_class`, `html_lang`, `html_dir`, `wp_*`).
   Served verbatim through `resources/views/captured.blade.php` → pixel-faithful,
   per-language (RTL Arabic intact).
+- **Admin sections by content type**: although every URL is stored in one
+  `pages` table (so the front-end serves them 1:1 by path), the Filament admin
+  splits them into separate sections — **Pages** (63), **Articles** (the 50 blog
+  posts), **Medical FAQ** (4), **Cases** (4) — via thin models (`Article`,
+  `Faq`, `CaseStudy`) that share the `pages` table with a `wp_type` global
+  scope, plus **SEO**, **Google & Marketing**, **Redirects**, **Site Settings**
+  and **Users**. The unused chem resources (Posts/Services/Portfolios/Team) are
+  hidden from navigation.
 - **SEO is preserved automatically**: the captured `<head>` already contains the
   original Yoast title/description/canonical/OG/Twitter/JSON-LD tags, so
   front-end SEO is identical to the source, byte-for-byte (minus the host

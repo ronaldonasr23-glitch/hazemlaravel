@@ -13,6 +13,7 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use Illuminate\Database\Eloquent\Builder;
 
 class PageResource extends Resource
 {
@@ -21,6 +22,17 @@ class PageResource extends Resource
     protected static ?string $model = Page::class;
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+
+    protected static ?string $navigationLabel = 'Pages';
+
+    protected static ?int $navigationSort = 1;
+
+    /** Admin lists only real pages; posts/FAQ/cases have their own sections. */
+    public static function getEloquentQuery(): Builder
+    {
+        return parent::getEloquentQuery()
+            ->where(fn (Builder $q) => $q->where('wp_type', 'page')->orWhereNull('wp_type'));
+    }
 
     public static function form(Schema $schema): Schema
     {
