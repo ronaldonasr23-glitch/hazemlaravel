@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # NOTE: The original WordPress site serves URLs WITH a trailing slash as the
+    # canonical 200 response (e.g. /about/). We deliberately do NOT strip the
+    # trailing slash here so every indexed URL keeps resolving 1:1 with zero
+    # redirects and zero 404s. We also do not force HTTPS, to mirror the source.
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

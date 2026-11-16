@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin
+Disallow: /livewire
+
+Sitemap: https://chemgrowgas.com/sitemap.xml
