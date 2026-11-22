@@ -71,6 +71,24 @@
         .gi-sent.err { background:#fdeaea; color:#c0392b; }
         .gi-gsc { flex:0 0 auto; font-size:11px; font-weight:700; color:var(--brand); text-decoration:none; white-space:nowrap; }
         .gi-gsc:hover { text-decoration:underline; }
+        /* Clickable badges that carry a message */
+        .gi-cov[title]:not([title=""]), .gi-sent[title]:not([title=""]) { cursor:pointer; }
+        .gi-cov.error, .gi-sent.err { text-decoration:underline dotted; text-underline-offset:2px; }
+        /* Error / details modal */
+        .gi-modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:99999;
+            align-items:center; justify-content:center; padding:20px; }
+        .gi-modal.open { display:flex; }
+        .gi-modal-box { background:#fff; border-radius:12px; max-width:640px; width:100%; max-height:80vh;
+            overflow:auto; box-shadow:0 20px 60px rgba(0,0,0,.35); }
+        .dark .gi-modal-box { background:#141b26; }
+        .gi-modal-head { display:flex; justify-content:space-between; align-items:center; padding:13px 18px;
+            border-bottom:1px solid #e5e7eb; font-weight:800; color:var(--navy); position:sticky; top:0; background:inherit; }
+        .dark .gi-modal-head { border-color:#374151; color:#e5e7eb; }
+        .gi-modal-head button { background:transparent; border:0; font-size:24px; line-height:1; cursor:pointer; color:#6b7280; }
+        .gi-modal-ti { font-size:11.5px; color:#8a8f98; font-weight:600; direction:ltr; padding:12px 18px 0; word-break:break-all; }
+        .gi-modal-body { padding:12px 18px 20px; margin:0; white-space:pre-wrap; word-break:break-word;
+            font-size:13px; line-height:1.6; color:#374151; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+        .dark .gi-modal-body { color:#cbd5e1; }
     </style>
 
     @php($cfg = $this->indexingConfigured())
@@ -139,13 +157,13 @@
                                 <div class="ti">{{ $row['title'] }}</div>
                                 <div class="u">{{ $row['url'] }}</div>
                             </div>
-                            <span class="gi-cov {{ $cov }}" data-cov title="{{ $row['coverage'] }}">
+                            <span class="gi-cov {{ $cov }}" data-cov data-url="{{ $row['url'] }}" title="{{ $row['coverage'] }}" onclick="cggShowMsg(this)">
                                 @if($row['state'] === 'indexed') Indexed ✓
                                 @elseif($row['state'] === 'not_indexed') Not indexed
                                 @elseif($row['state'] === 'unknown') Unknown
                                 @endif
                             </span>
-                            <span class="gi-sent {{ $row['submitted'] ? 'ok' : '' }}" data-sent style="{{ $row['submitted'] ? '' : 'display:none' }}">{{ $row['submitted'] ? '✓ Sent' : '' }}</span>
+                            <span class="gi-sent {{ $row['submitted'] ? 'ok' : '' }}" data-sent data-url="{{ $row['url'] }}" style="{{ $row['submitted'] ? '' : 'display:none' }}" onclick="cggShowMsg(this)">{{ $row['submitted'] ? '✓ Sent' : '' }}</span>
                             <a class="gi-gsc" href="{{ $row['inspect'] }}" target="_blank" rel="noopener" title="Open in Search Console">GSC ↗</a>
                         </div>
                     @endforeach
@@ -154,8 +172,28 @@
         </div>
     </div>
 
+    {{-- Error / details popup (click any status or "Sent" badge to see its full message) --}}
+    <div id="gi-modal" class="gi-modal" onclick="if(event.target===this)cggCloseMsg()">
+        <div class="gi-modal-box">
+            <div class="gi-modal-head"><span>Details</span><button type="button" onclick="cggCloseMsg()" aria-label="Close">&times;</button></div>
+            <div class="gi-modal-ti" id="gi-modal-url"></div>
+            <pre class="gi-modal-body" id="gi-modal-body"></pre>
+        </div>
+    </div>
+
     <script>
         function cggWire(){ return window.Livewire.find(@js($this->getId())); }
+
+        // Show a badge's full message (error/coverage) in a popup.
+        function cggShowMsg(el){
+            var msg = (el.getAttribute('title') || '').trim();
+            if (! msg) { return; }
+            document.getElementById('gi-modal-url').textContent = el.getAttribute('data-url') || '';
+            document.getElementById('gi-modal-body').textContent = msg;
+            document.getElementById('gi-modal').classList.add('open');
+        }
+        function cggCloseMsg(){ document.getElementById('gi-modal').classList.remove('open'); }
+        document.addEventListener('keydown', function(e){ if (e.key === 'Escape') cggCloseMsg(); });
 
         // STEP 1 — live check, one article per request.
         async function cggCheckAll(btn){
@@ -178,7 +216,7 @@
                     if (res.state === 'indexed') idx++; else if (res.state === 'not_indexed') no++; else if (res.state === 'error') err++; else unk++;
                 } catch (e) {
                     row.setAttribute('data-state', 'error');
-                    if (badge){ badge.className = 'gi-cov error'; badge.textContent = 'Error'; }
+                    if (badge){ badge.className = 'gi-cov error'; badge.textContent = 'Error'; badge.title = 'Request failed (network/timeout): ' + (e && e.message ? e.message : e); }
                     err++;
                 }
                 row.classList.remove('busy'); done++;
@@ -217,7 +255,7 @@
                     if (sent){ sent.className = 'gi-sent ' + (res.ok ? 'ok' : 'err'); sent.textContent = res.ok ? '✓ Sent' : 'Error'; sent.title = res.message || ''; }
                     res.ok ? ok++ : err++;
                 } catch (e) {
-                    if (sent){ sent.className = 'gi-sent err'; sent.textContent = 'Error'; }
+                    if (sent){ sent.className = 'gi-sent err'; sent.textContent = 'Error'; sent.title = 'Request failed (network/timeout): ' + (e && e.message ? e.message : e); }
                     err++;
                 }
                 row.classList.remove('busy'); done++;

@@ -25,4 +25,15 @@ class Post extends Model
     {
         return $q->where('status', 'published');
     }
+
+    /** The article's public URL = its exact original WordPress permalink. */
+    public function url(): string
+    {
+        return '/' . ltrim($this->path ?: $this->slug, '/') . '/';
+    }
+
+    public function isRtl(): bool
+    {
+        return $this->html_dir === 'rtl' || $this->language === 'ar';
+    }
 }

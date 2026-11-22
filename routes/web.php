@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\SitemapController;
@@ -17,6 +19,17 @@ Route::get('/{type}-sitemap.xml', [SitemapController::class, 'type'])
 
 // Contact form submission (kept for CF7-style forms if present)
 Route::post('/contact-submit', [ContactController::class, 'submit'])->name('contact.submit');
+
+// Online appointment booking (the GET page is served at /online-appointment/ via
+// the catch-all → PageController, which delegates to AppointmentController).
+Route::post('/online-appointment/book', [AppointmentController::class, 'book'])->name('appointment.book');
+
+// Living blog archive (dynamic, from the posts table) — English + Arabic.
+// These win over the frozen captured /blogs page so new & scheduled articles show.
+Route::get('/blogs', [BlogController::class, 'index'])->defaults('language', 'en')->name('blog.index');
+Route::get('/blog', [BlogController::class, 'index'])->defaults('language', 'en');
+Route::get('/ar/blogs', [BlogController::class, 'index'])->defaults('language', 'ar')->name('blog.index.ar');
+Route::get('/ar/blog', [BlogController::class, 'index'])->defaults('language', 'ar');
 
 // Catch-all: every original WordPress URL (hierarchical, both languages) resolves
 // to its captured page by full path. MUST stay last. Reserved prefixes (admin

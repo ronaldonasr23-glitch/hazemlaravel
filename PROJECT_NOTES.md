@@ -43,20 +43,42 @@ non-200s already 404 on the original WordPress site (orphaned Arabic
 `medical_faq` singles + `faq-topic` archives), so there are **zero new 404s**.
 
 ## Architecture
-- **Captured pages** — the fully-rendered HTML of all 125 public URLs (63 pages,
-  50 posts, 4 cases, 4 EN medical_faq, archives) was captured from the live
-  WordPress render and stored in the `pages` table (`path`, `language`,
+- **Captured pages** — the fully-rendered HTML of the static public URLs (63
+  pages, 4 cases, medical_faq, taxonomy/author archives) was captured from the
+  live WordPress render and stored in the `pages` table (`path`, `language`,
   `head_html`, `content_html`, `body_class`, `html_lang`, `html_dir`, `wp_*`).
   Served verbatim through `resources/views/captured.blade.php` → pixel-faithful,
   per-language (RTL Arabic intact).
-- **Admin sections by content type**: although every URL is stored in one
-  `pages` table (so the front-end serves them 1:1 by path), the Filament admin
-  splits them into separate sections — **Pages** (63), **Articles** (the 50 blog
-  posts), **Medical FAQ** (4), **Cases** (4) — via thin models (`Article`,
-  `Faq`, `CaseStudy`) that share the `pages` table with a `wp_type` global
-  scope, plus **SEO**, **Google & Marketing**, **Redirects**, **Site Settings**
-  and **Users**. The unused chem resources (Posts/Services/Portfolios/Team) are
-  hidden from navigation.
+- **Articles are a living, dynamic blog (not frozen captures)** — all articles
+  live in the native `posts` table and render dynamically, because a captured
+  snapshot can't list new posts, can't schedule, and omits not-yet-public
+  (scheduled) articles. `php artisan wp:import-articles` imports them straight
+  from the WordPress source DB:
+  - **126 published** posts → `status=published`, rendered at their EXACT
+    original permalink (path taken from `urls.json`, the same inventory that
+    generated the sitemap → zero-404) via `PageController`, which falls back to
+    a published `Post` when a path isn't a captured page.
+  - **14 scheduled** (WP `future`) posts → `status=scheduled` with their future
+    `published_at`. They show in the admin **Schedule Articles** page, stay 404
+    until their date (exactly like WP), and auto-publish via
+    `articles:publish-due` / the `PublishScheduledArticles` middleware.
+  - Yoast SEO (title/description/focus keyphrase/OG/Twitter/schema) is copied
+    into `seo_meta`; featured images resolve to `/wp-content/uploads/...`.
+  - The archive lives at **`/blogs`** (+ `/ar/blogs`) via `BlogController`;
+    single articles use the AALTO design — a **blurred-thumbnail hero** behind
+    the title + a two-column layout with a real-data sidebar (search, recent
+    articles, contact). Direction follows the actual text (some Arabic articles
+    sit in the no-prefix/English Polylang tree but still render RTL).
+  - Dynamic pages wear the site's real theme chrome via `App\Support\SiteShell`,
+    which extracts the captured home page's head/header/footer per language and
+    injects per-article SEO — so a dynamic article looks identical to a captured
+    page even though the `settings` header/footer HTML was never seeded.
+- **Admin sections by content type**: captured content (Pages 63, Medical FAQ,
+  Cases 4) is split in the Filament admin via thin models (`Faq`, `CaseStudy`)
+  that share the `pages` table with a `wp_type` global scope; **Articles** (126)
+  and **Schedule Articles** (CSV publisher) are the native `Post` model. Plus
+  **SEO**, **Google & Marketing**, **Redirects**, **Site Settings** and
+  **Users**. Unused chem resources (Services/Portfolios/Team) are hidden.
 - **SEO is preserved automatically**: the captured `<head>` already contains the
   original Yoast title/description/canonical/OG/Twitter/JSON-LD tags, so
   front-end SEO is identical to the source, byte-for-byte (minus the host
@@ -82,9 +104,13 @@ Source host/DB are set in `.env` (`WP_SOURCE_HOST`, `WP_DB_DATABASE`).
 ```bash
 php artisan migrate:fresh          # create tables
 php artisan db:seed                # roles + admin users
-php artisan wp:capture --fresh     # capture every URL from the live WP site
+php artisan wp:capture --fresh     # capture pages/cases/faq/archives from WP
+php artisan wp:import-articles --prune  # import articles into the posts table
 php artisan wp:redirects           # build WordPress canonical 301s
 ```
+`wp:import-articles` reads the live WP DB via the `wp` connection (configured
+from `WP_DB_*` in `.env`); `--prune` removes the captured `wp_type=post` pages
+so articles render dynamically. Re-running is idempotent (keyed by the WP id).
 Then copy the theme assets into `public/` (static files only) — see the asset
 copy described above. Source of truth for URLs: `database/seeders/raw/urls.json`
 (generated from the live site via `get_permalink`) and `sitemap_urls.txt`.
@@ -101,6 +127,36 @@ copy described above. Source of truth for URLs: `database/seeders/raw/urls.json`
   the standard block; (2) the rendered HTML contains invalid UTF-8 byte sequences
   (the site runs a `hazem-encoding-fix` plugin), so `wp:capture` scrubs each
   captured string to valid UTF-8 (`mb_scrub`) before storing.
+
+## Online appointments
+A calendar-based booking system on `/online-appointment/` (served at its exact
+original URL via `PageController` → `AppointmentController`, so it stays 200):
+- **Clinics by location:** the `appointment_types` table holds the doctor's
+  **clinics** — Egypt (EGP) and UAE (AED) — each with its own `price`, `currency`
+  and an `is_active` flag. Only **active** clinics accept bookings, so the doctor
+  toggles which location he is currently at from the dashboard (Egypt on → UAE
+  off), and that controls which currency/prices the site shows. Prices are edited
+  from the dashboard. (`AppointmentType` is kept as the model name; it represents
+  a clinic.)
+- **Slots & bookings:** `appointment_slots` (clinic + `starts_at` + status
+  available/booked/closed), `appointment_bookings` (patient name/phone, status,
+  amount, currency, payment ref). `AppointmentSlot::scopeBookable()` = available +
+  future + clinic active.
+- **Dashboard:** Filament **Appointments** group — **Clinics** (price, currency,
+  slot count, inline Active toggle), **Time Slots** (clinic badge, date/time,
+  status badge, quick Close/Re-open + filters), **Bookings** — gated by the
+  `manage_appointments` permission.
+- **Booking page:** a month **calendar** (vanilla JS, built from the active
+  clinics' bookable slots) → pick a day → pick a time → name + **phone (required)**.
+- **Payment is optional** (`App\Support\Appointments::book()`): an unpaid booking
+  is saved `unconfirmed` and the slot **stays open** (others can still book it);
+  the doctor is notified on Telegram that an unconfirmed booking needs follow-up.
+  `confirmPaid()` (called by the Stripe flow, wired later) marks it `paid` and
+  closes the slot. Stripe keys: `STRIPE_*` in `.env`.
+- **Telegram** (`App\Support\Telegram` + `telegram:poll`, scheduled every minute):
+  notifies on each booking, and lets the doctor close/open slots for walk-ins from
+  the bot (`/slots`, `/closed`, inline buttons). Inert until `TELEGRAM_BOT_TOKEN`
+  + `TELEGRAM_CHAT_ID` are set (@BotFather). Long-poll — no public webhook needed.
 
 ## Notes / for production
 - Canonical/OG URLs in captured heads point to `hazemlaravel.test` (the source

@@ -20,3 +20,7 @@ Schedule::command('articles:index-google')->hourly();
 // Backstop: daily refresh of the index status of not-yet-indexed articles
 // (the per-minute publish-due also does this a few at a time).
 Schedule::command('articles:check-index')->daily();
+
+// Appointment bot: process Telegram commands (close/open slots for walk-ins).
+// Inert until TELEGRAM_BOT_TOKEN is set; no public webhook required.
+Schedule::command('telegram:poll')->everyMinute()->withoutOverlapping();

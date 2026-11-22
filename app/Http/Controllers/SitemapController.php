@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Page;
+use App\Models\Post;
 use Illuminate\Http\Response;
 
 /**
@@ -16,7 +17,9 @@ class SitemapController extends Controller
     private function groups(): array
     {
         return [
-            'post'        => fn () => Page::where('is_published', true)->where('wp_type', 'post'),
+            // Articles now live in the posts table (published only — scheduled
+            // posts stay out of the sitemap until they go live, exactly like WP).
+            'post'        => fn () => Post::published(),
             'page'        => fn () => Page::where('is_published', true)->where('wp_type', 'page'),
             'cases'       => fn () => Page::where('is_published', true)->where(function ($q) {
                 $q->where('wp_type', 'cases')->orWhere('path', 'cases')->orWhere('path', 'like', '%/cases');

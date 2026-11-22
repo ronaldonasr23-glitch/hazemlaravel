@@ -31,3 +31,7 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+# Deploy artifacts + large archives (never pushed to GitHub; built locally / live only on the server)
+/hazemlaravel.zip
+/deploy/*.tar.gz
+/deploy/*.sql

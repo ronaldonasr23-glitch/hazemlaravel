@@ -35,4 +35,18 @@ return [
         ],
     ],
 
+    // Appointment notifications + walk-in slot control. Create a bot with
+    // @BotFather, then set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env.
+    'telegram' => [
+        'token'   => env('TELEGRAM_BOT_TOKEN'),
+        'chat_id' => env('TELEGRAM_CHAT_ID'),
+    ],
+
+    // Stripe (payment on booking) — wired later. Set these keys when ready.
+    'stripe' => [
+        'key'            => env('STRIPE_KEY'),
+        'secret'         => env('STRIPE_SECRET'),
+        'webhook_secret' => env('STRIPE_WEBHOOK_SECRET'),
+    ],
+
 ];

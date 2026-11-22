@@ -64,6 +64,23 @@ return [
             ]) : [],
         ],
 
+        // Read-only connection to the live WordPress source DB (for importing
+        // articles/SEO straight from wp_posts/wp_postmeta into the Post model).
+        'wp' => [
+            'driver' => 'mysql',
+            'host' => env('WP_DB_HOST', env('DB_HOST', '127.0.0.1')),
+            'port' => env('WP_DB_PORT', env('DB_PORT', '3306')),
+            'database' => env('WP_DB_DATABASE', 'hazembefore'),
+            'username' => env('WP_DB_USERNAME', env('DB_USERNAME', 'root')),
+            'password' => env('WP_DB_PASSWORD', env('DB_PASSWORD', '')),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => env('WP_DB_PREFIX', 'wp_'),
+            'prefix_indexes' => true,
+            'strict' => false,
+            'engine' => null,
+        ],
+
         'mariadb' => [
             'driver' => 'mariadb',
             'url' => env('DB_URL'),

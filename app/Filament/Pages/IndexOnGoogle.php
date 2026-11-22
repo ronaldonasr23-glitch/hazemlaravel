@@ -102,9 +102,10 @@ class IndexOnGoogle extends Page
 
         return Post::where('status', 'published')
             ->orderByDesc('published_at')
-            ->get(['id', 'title', 'slug', 'google_submitted_at', 'google_index_status', 'google_coverage', 'google_checked_at'])
+            ->get(['id', 'title', 'slug', 'path', 'google_submitted_at', 'google_index_status', 'google_coverage', 'google_checked_at'])
             ->map(function ($p) use ($base, $property) {
-                $url = $base . '/' . $p->slug;
+                // Full path (with /ar/ for Arabic) + trailing slash = the canonical URL.
+                $url = $base . '/' . trim((string) ($p->path ?: $p->slug), '/') . '/';
 
                 return [
                     'id'        => $p->id,

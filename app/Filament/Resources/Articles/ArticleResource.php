@@ -27,6 +27,13 @@ class ArticleResource extends Resource
 
     protected static ?int $navigationSort = 2;
 
+    // Articles moved to the native Post model (the living blog); this page-based
+    // resource is superseded by PostResource and hidden to avoid duplication.
+    public static function shouldRegisterNavigation(): bool
+    {
+        return false;
+    }
+
     public static function form(Schema $schema): Schema
     {
         return PageForm::configure($schema);

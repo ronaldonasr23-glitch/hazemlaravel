@@ -134,7 +134,14 @@ class GoogleIndexing
 
     public static function urlFor(Post $post): string
     {
-        return self::base() . '/' . $post->slug;
+        // The canonical URL = the article's FULL path (keeps the /ar/ prefix for
+        // Arabic articles) with a trailing slash, percent-encoded exactly like the
+        // sitemap. Using just the slug dropped the /ar/ prefix and the trailing
+        // slash, so Google was asked about URLs that 404 / don't match the index.
+        $path = trim((string) ($post->path ?: $post->slug), '/');
+        $encoded = implode('/', array_map('rawurlencode', explode('/', $path)));
+
+        return self::base() . '/' . $encoded . '/';
     }
 
     /** Notify Google that a URL was updated. Returns [bool success, string message]. */

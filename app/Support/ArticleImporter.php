@@ -92,9 +92,16 @@ class ArticleImporter
                 ? self::storeThumbnail($imageIndex[$rowNum], $slug)
                 : null;
 
+            // Articles are served at their path by the catch-all, so new ones
+            // need a path/language/direction too. Detect Arabic for RTL.
+            $isArabic = (bool) preg_match('/[\x{0600}-\x{06FF}]/u', $title);
+
             $post = Post::create([
                 'title'          => $title,
                 'slug'           => $slug,
+                'path'           => $slug,
+                'language'       => $isArabic ? 'ar' : 'en',
+                'html_dir'       => $isArabic ? 'rtl' : 'ltr',
                 'excerpt'        => Str::limit(trim((string) ($data['meta_description'] ?? '')) ?: $plain, 200),
                 'content'        => $content,
                 'featured_image' => $featured,

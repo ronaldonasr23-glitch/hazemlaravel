@@ -17,6 +17,7 @@ class RolesSeeder extends Seeder
         $permissions = [
             'manage_pages', 'manage_posts', 'manage_services', 'manage_team', 'manage_portfolios',
             'manage_seo', 'manage_google', 'manage_users', 'manage_settings', 'manage_redirects',
+            'manage_appointments',
         ];
         foreach ($permissions as $p) {
             Permission::firstOrCreate(['name' => $p, 'guard_name' => 'web']);
@@ -28,7 +29,7 @@ class RolesSeeder extends Seeder
         $marketing = Role::firstOrCreate(['name' => 'marketing_manager', 'guard_name' => 'web']);
         $marketing->syncPermissions([
             'manage_posts', 'manage_pages', 'manage_services', 'manage_portfolios',
-            'manage_seo', 'manage_google', 'manage_redirects',
+            'manage_seo', 'manage_google', 'manage_redirects', 'manage_appointments',
         ]);
 
         $adminUser = User::firstOrCreate(

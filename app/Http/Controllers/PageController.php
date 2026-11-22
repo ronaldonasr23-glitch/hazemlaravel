@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Page;
+use App\Models\Post;
+use App\Http\Controllers\AppointmentController;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -16,9 +18,24 @@ class PageController extends Controller
     {
         $path = trim(rawurldecode($path), '/');
 
+        // The online-appointment page is now a dynamic booking UI (served at its
+        // exact original URL via the catch-all, so the trailing-slash URL in
+        // Search Console still resolves 200).
+        if ($path === 'online-appointment') {
+            return app(AppointmentController::class)->index();
+        }
+
         $page = Page::where('path', $path)->where('is_published', true)->first();
 
-        abort_if($page === null, 404);
+        // Articles are no longer captured as static pages — they render
+        // dynamically from the posts table at their exact original permalink.
+        // Scheduled (future) posts stay 404 until their date, exactly like WP.
+        if ($page === null) {
+            $post = Post::published()->where('path', $path)->first();
+            abort_if($post === null, 404);
+
+            return app(BlogController::class)->renderSingle($post);
+        }
 
         return response()->view('captured', [
             'htmlLang'    => $page->html_lang ?: 'en-US',

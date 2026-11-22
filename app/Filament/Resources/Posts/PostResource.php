@@ -20,13 +20,17 @@ class PostResource extends Resource
 
     protected static ?string $model = Post::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedNewspaper;
 
-    // Not used on this site (hazemfezary content lives in Pages/Articles/FAQ/Cases).
-    public static function shouldRegisterNavigation(): bool
-    {
-        return false;
-    }
+    // The site's articles (126 published + scheduled) live in the posts table and
+    // render as the living blog, so this is the real "Articles" admin section.
+    protected static ?string $navigationLabel = 'Articles';
+
+    protected static ?string $pluralModelLabel = 'Articles';
+
+    protected static ?string $modelLabel = 'Article';
+
+    protected static ?int $navigationSort = 2;
 
     public static function form(Schema $schema): Schema
     {

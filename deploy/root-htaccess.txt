@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Pass the Authorization header through to PHP
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Security: block dotfiles (.env, .git, ...) and the app internals.
+    # Only the app's public/ folder (sss/public) may be reached.
+    RewriteRule (^|/)\.(?!well-known) - [F,L]
+    RewriteRule ^sss/(?!public/) - [F,L]
+
+    # Serve any static asset that exists in the app's public folder (sss/public)
+    # — images, CSS, JS, fonts — without needing a symlink.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{DOCUMENT_ROOT}/sss/public%{REQUEST_URI} -f
+    RewriteRule ^ sss/public%{REQUEST_URI} [L]
+
+    # Everything else goes to the Laravel front controller.
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

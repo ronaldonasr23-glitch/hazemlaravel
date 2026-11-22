@@ -3,61 +3,92 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
-use App\Support\Seo;
+use App\Support\SiteShell;
+use Illuminate\Http\Request;
 
+/**
+ * Renders the living blog — the article archive (/blogs) and single articles —
+ * dynamically from the `posts` table, wrapped in the site's captured theme
+ * chrome (see SiteShell) so it matches the rest of the site in both languages.
+ *
+ * Single articles are reached at their EXACT original permalink via the
+ * catch-all PageController, which calls renderSingle() when a path resolves to
+ * a published Post rather than a captured page — so no article URL 404s.
+ */
 class BlogController extends Controller
 {
-    private const BODY = 'wp-theme-indutri tribe-no-js elementor-default elementor-kit-6';
-
-    public function index()
+    /** The article archive: /blogs (English) and /ar/blogs (Arabic). */
+    public function index(Request $request, string $language = 'en')
     {
-        $posts = Post::published()->latest('published_at')->paginate(9);
+        $language = $language === 'ar' ? 'ar' : 'en';
+        $search = trim((string) $request->query('s', ''));
 
-        $content = view('dynamic.blog-index', compact('posts'))->render();
+        $posts = Post::published()
+            ->where('language', $language)
+            ->when($search !== '', fn ($q) => $q->where(fn ($w) => $w
+                ->where('title', 'like', "%{$search}%")
+                ->orWhere('content', 'like', "%{$search}%")))
+            ->latest('published_at')
+            ->paginate(9)
+            ->withQueryString();
 
-        return view('site', [
-            'head' => Seo::head([
-                'title'       => 'News - ' . \App\Models\Setting::get('site_name'),
-                'description' => 'Latest news and insights on chemical engineering, gas industries and plant operations.',
-                'url'         => route('blog.index'),
-            ]),
-            'bodyClass'   => 'archive ' . self::BODY,
-            'contentHtml' => $content,
+        $inner = view('dynamic.blog-index', [
+            'posts' => $posts,
+            'rtl'   => $language === 'ar',
+            'lang'  => $language,
+        ])->render();
+
+        return $this->wrap($language, $inner, [
+            'title'       => ($search !== '' ? ($language === 'ar' ? 'بحث: ' : 'Search: ') . $search
+                                             : ($language === 'ar' ? 'أحدث المقالات' : 'Latest Articles')),
+            'description' => $language === 'ar'
+                ? 'أحدث المقالات والنصائح الطبية من أ.د. حازم الفزاري في جراحة وتقويم العمود الفقري.'
+                : 'Latest articles and medical insights from Prof. Dr. Hazem El Fezary on spine surgery and deformity correction.',
+            'canonical'   => url($language === 'ar' ? '/ar/blogs/' : '/blogs/'),
+            'og_type'     => 'website',
         ]);
     }
 
-    public function show(string $slug)
+    /** Render a single article (called by PageController for article paths). */
+    public function renderSingle(Post $post)
     {
-        $post = Post::published()->where('slug', $slug)->first();
+        $language = $post->language === 'ar' ? 'ar' : 'en';
 
-        if (! $post) {
-            // Old duplicated permalinks carried a numeric suffix (e.g. "-2").
-            // Redirect those to the canonical article when it exists.
-            $base = preg_replace('/-\d+$/', '', $slug);
-            if ($base !== $slug && ($canonical = Post::published()->where('slug', $base)->first())) {
-                return redirect()->route('blog.show', $canonical->slug, 301);
-            }
-            abort(404);
-        }
+        $recent = Post::published()->where('language', $language)
+            ->where('id', '!=', $post->id)
+            ->latest('published_at')->take(5)->get();
 
-        $related = Post::published()
+        $related = Post::published()->where('language', $language)
             ->where('id', '!=', $post->id)
             ->latest('published_at')->take(3)->get();
 
-        $content = view('dynamic.blog-single', compact('post', 'related'))->render();
+        $inner = view('dynamic.blog-single', compact('post', 'related', 'recent'))->render();
 
-        return view('site', [
-            'head' => Seo::head([
-                'seo'            => $post->seo,
-                'fallback_title' => $post->title . ' - ' . \App\Models\Setting::get('site_name'),
-                'description'    => $post->excerpt,
-                'image'          => $post->featured_image,
-                'url'            => route('blog.show', $post->slug),
-                'og_type'        => 'article',
-                'published_at'   => optional($post->published_at)->toIso8601String(),
-            ]),
-            'bodyClass'   => 'single single-post ' . self::BODY,
-            'contentHtml' => $content,
+        $seo = $post->seo;
+
+        return $this->wrap($language, $inner, [
+            'title'        => ($seo?->seo_title) ?: $post->title,
+            'description'  => ($seo?->meta_description) ?: strip_tags($post->excerpt),
+            'canonical'    => url($post->url()),
+            'image'        => $post->featured_image,
+            'og_type'      => 'article',
+            'published_at' => optional($post->published_at)->toIso8601String(),
+        ]);
+    }
+
+    /** Assemble inner content + per-page SEO into the captured site shell. */
+    private function wrap(string $language, string $inner, array $seo)
+    {
+        $shell = SiteShell::get($language);
+
+        return response()->view('dynamic.shell', [
+            'head'      => SiteShell::head($language, $seo),
+            'top'       => $shell['top'],
+            'bottom'    => $shell['bottom'],
+            'bodyClass' => $shell['bodyClass'],
+            'lang'      => $shell['lang'],
+            'dir'       => $shell['dir'],
+            'content'   => $inner,
         ]);
     }
 }
