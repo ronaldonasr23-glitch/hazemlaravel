@@ -34,6 +34,8 @@ class SiteShell
     {
         $shell = self::get($language);
 
+        // Dynamic pages must not be stored by the edge/CDN cache, so changing
+        // content (appointment slots, articles) always reflects immediately.
         return response()->view('dynamic.shell', [
             'head'      => self::head($language, $seo),
             'top'       => $shell['top'],
@@ -42,7 +44,10 @@ class SiteShell
             'lang'      => $shell['lang'],
             'dir'       => $shell['dir'],
             'content'   => $inner,
-        ]);
+        ])
+            ->header('Cache-Control', 'no-cache, no-store, must-revalidate, private')
+            ->header('Pragma', 'no-cache')
+            ->header('Expires', '0');
     }
 
     /**

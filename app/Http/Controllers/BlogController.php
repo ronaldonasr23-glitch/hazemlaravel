@@ -81,6 +81,11 @@ class BlogController extends Controller
     {
         $shell = SiteShell::get($language);
 
+        // Dynamic pages (the living blog + single articles) must never be stored
+        // by the edge/CDN cache — otherwise a page captured once keeps being
+        // served in its old form and newly published articles / design changes
+        // don't appear until a manual CDN purge. Captured static pages stay
+        // cacheable; only these dynamic responses opt out.
         return response()->view('dynamic.shell', [
             'head'      => SiteShell::head($language, $seo),
             'top'       => $shell['top'],
@@ -89,6 +94,9 @@ class BlogController extends Controller
             'lang'      => $shell['lang'],
             'dir'       => $shell['dir'],
             'content'   => $inner,
-        ]);
+        ])
+            ->header('Cache-Control', 'no-cache, no-store, must-revalidate, private')
+            ->header('Pragma', 'no-cache')
+            ->header('Expires', '0');
     }
 }
