@@ -25,6 +25,17 @@ class PageController extends Controller
             return app(AppointmentController::class)->index();
         }
 
+        // The living-blog archive must always render dynamically from the posts
+        // table — even at the trailing-slash URL /blogs/ (the canonical one),
+        // which otherwise falls through to the frozen captured blog page and
+        // never shows newly published / scheduled articles.
+        if (in_array($path, ['blogs', 'blog'], true)) {
+            return app(BlogController::class)->index($request, 'en');
+        }
+        if (in_array($path, ['ar/blogs', 'ar/blog'], true)) {
+            return app(BlogController::class)->index($request, 'ar');
+        }
+
         $page = Page::where('path', $path)->where('is_published', true)->first();
 
         // Articles are no longer captured as static pages — they render
