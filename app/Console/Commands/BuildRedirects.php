@@ -47,7 +47,9 @@ class BuildRedirects extends Command
                 continue;
             }
             $full = '/' . trim(rawurldecode(parse_url($it['url'], PHP_URL_PATH) ?? ''), '/');
-            $bare = '/' . $it['slug'];
+            // Decode the slug: the HandleRedirects middleware looks paths up
+            // rawurldecoded, so an encoded Arabic from_path would never match.
+            $bare = '/' . rawurldecode($it['slug']);
 
             // Only when the real URL is hierarchical (bare != full) and unique.
             if ($bare === $full || ($slugCount[$it['slug']] ?? 0) !== 1) {
